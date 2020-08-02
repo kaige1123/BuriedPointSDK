@@ -1,0 +1,6 @@
+framework module Pods_BuriedPointSDK_Tests {
+  umbrella header "Pods-BuriedPointSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

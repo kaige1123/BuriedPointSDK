@@ -1,0 +1,16 @@
+PODS:
+  - BuriedPointSDK (0.1.0)
+
+DEPENDENCIES:
+  - BuriedPointSDK (from `../`)
+
+EXTERNAL SOURCES:
+  BuriedPointSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BuriedPointSDK: ecd67a3e2af73348919e197f69faac54fb2f8780
+
+PODFILE CHECKSUM: 7d0190fb22a28126e6ad1761f23fb83d31b36582
+
+COCOAPODS: 1.8.1

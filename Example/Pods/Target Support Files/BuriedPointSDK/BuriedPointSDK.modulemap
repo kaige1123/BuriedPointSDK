@@ -1,0 +1,6 @@
+framework module BuriedPointSDK {
+  umbrella header "BuriedPointSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,12 +7,45 @@
 //
 
 #import "BURIEDPOINTAppDelegate.h"
+#import <BuriedPointSDK/SensorsAnalyticsSDK.h>
+
+static NSString* Sa_Default_ServerURL = @"http://sdk-test.cloud.sensorsdata.cn:8006/sa?project=default&token=95c73ae661f85aa0";
 
 @implementation BURIEDPOINTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    SAConfigOptions *options = [[SAConfigOptions alloc] initWithServerURL:Sa_Default_ServerURL launchOptions:launchOptions];
+    options.autoTrackEventType = SensorsAnalyticsEventTypeAppStart | SensorsAnalyticsEventTypeAppEnd | SensorsAnalyticsEventTypeAppClick | SensorsAnalyticsEventTypeAppViewScreen;
+    options.enableTrackAppCrash = YES;
+    options.flushInterval = 10 * 1000;
+    options.flushBulkSize = 20;
+//    options.enableHeatMap = YES;
+//    options.enableVisualizedAutoTrack = YES;
+//    options.enableJavaScriptBridge = YES;
+//    options.enableLog = YES;
+    options.maxCacheSize = 20000;
+    [SensorsAnalyticsSDK startWithConfigOptions:options];
+
+    [[SensorsAnalyticsSDK sharedInstance] registerSuperProperties:@{@"AAA":UIDevice.currentDevice.identifierForVendor.UUIDString}];
+    [[SensorsAnalyticsSDK sharedInstance] registerDynamicSuperProperties:^NSDictionary * _Nonnull{
+        __block UIApplicationState appState;
+        if (NSThread.isMainThread) {
+            appState = UIApplication.sharedApplication.applicationState;
+        }else {
+            dispatch_sync(dispatch_get_main_queue(), ^{
+                appState = UIApplication.sharedApplication.applicationState;
+            });
+        }
+        return @{@"__APPState__":@(appState)};
+    }];
+    [[SensorsAnalyticsSDK sharedInstance] enableLog:YES];
+    [[SensorsAnalyticsSDK sharedInstance] trackInstallation:@"AppInstall" withProperties:@{@"testValue" : @"testKey"}];
+    //[[SensorsAnalyticsSDK sharedInstance] addHeatMapViewControllers:[NSArray arrayWithObject:@"DemoController"]];
+
+    [[SensorsAnalyticsSDK sharedInstance] setFlushNetworkPolicy:SensorsAnalyticsNetworkTypeALL];
+    [[SensorsAnalyticsSDK sharedInstance] enableTrackScreenOrientation:YES];
+    [[SensorsAnalyticsSDK sharedInstance] enableTrackGPSLocation:YES];
     return YES;
 }
 

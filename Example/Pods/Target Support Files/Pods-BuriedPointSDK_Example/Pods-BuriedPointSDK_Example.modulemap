@@ -1,0 +1,6 @@
+framework module Pods_BuriedPointSDK_Example {
+  umbrella header "Pods-BuriedPointSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

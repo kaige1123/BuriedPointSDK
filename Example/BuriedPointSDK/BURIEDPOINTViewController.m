@@ -7,6 +7,7 @@
 //
 
 #import "BURIEDPOINTViewController.h"
+#import <BuriedPointSDK/NSString+HashCode.h>
 
 @interface BURIEDPOINTViewController ()
 
@@ -17,7 +18,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	    NSString *str = @"sensorsdata_hashCode";
+    NSLog(@"------sensorsdata_hashCode:%d------",[str sensorsdata_hashCode]);
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.backgroundColor = UIColor.redColor;
+    btn.frame = CGRectMake(0, 100, 200, 60);
+    [btn addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+- (void)buttonAction
+{
+    NSLog(@"buttonAction");
 }
 
 - (void)didReceiveMemoryWarning

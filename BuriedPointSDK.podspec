@@ -30,7 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BuriedPointSDK/Classes/**/*'
+  #s.source_files = 'BuriedPointSDK/Classes/**/*'
+  
+  #自己的逻辑代码#自己的逻辑代码
+  s.source_files  = "BuriedPointSDK/Classes/**/*.{h,m}"
+  #依赖自己的或别人的Framework文件
+  #s.vendored_frameworks = 'BuriedPointSDK/Classes/*.framework'
   
   # s.resource_bundles = {
   #   'BuriedPointSDK' => ['BuriedPointSDK/Assets/*.png']
