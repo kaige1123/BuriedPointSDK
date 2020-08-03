@@ -8,6 +8,7 @@
 
 #import "BURIEDPOINTViewController.h"
 #import <BuriedPointSDK/NSString+HashCode.h>
+#import "TestViewController.h"
 
 @interface BURIEDPOINTViewController ()
 
@@ -24,13 +25,28 @@
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.backgroundColor = UIColor.redColor;
     btn.frame = CGRectMake(0, 100, 200, 60);
-    [btn addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    btn.tag = 1000;
+    [btn setTitle:@"点击按钮" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn1.backgroundColor = UIColor.redColor;
+    btn1.frame = CGRectMake(50, 400, 200, 60);
+    btn1.tag = 1001;
+    [btn1 setTitle:@"下一页" forState:UIControlStateNormal];
+    [btn1 addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn1];
 }
 
-- (void)buttonAction
-{
+- (void)buttonAction:(UIButton *)sender {
     NSLog(@"buttonAction");
+    if (sender.tag == 1000) {
+        
+    } else if (sender.tag == 1001) {
+        TestViewController *testVC = [[TestViewController alloc] init];
+        [self presentViewController:testVC animated:YES completion:nil];
+    }
 }
 
 - (void)didReceiveMemoryWarning

@@ -334,9 +334,13 @@ static SensorsAnalyticsSDK *sharedInstance = nil;
             
              _trackTimer = [NSMutableDictionary dictionary];
             
-            _messageQueue = [[MessageQueueBySqlite alloc] initWithFilePath:[self filePathForData:@"message-v2"]];
+            NSString *dbfilepath = [[NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) lastObject]
+            stringByAppendingPathComponent:@"message_v2.db"];
+            _messageQueue = [[MessageQueueBySqlite alloc] initWithFilePath:dbfilepath];
             if (self.messageQueue == nil) {
                 SADebug(@"SqliteException: init Message Queue in Sqlite fail");
+            } else {
+                SADebug(@"SqliteException: %@",dbfilepath);
             }
             
             NSString *namePattern = @"^((?!^distinct_id$|^original_id$|^time$|^event$|^properties$|^id$|^first_id$|^second_id$|^users$|^events$|^event$|^user_id$|^date$|^datetime$)[a-zA-Z_$][a-zA-Z\\d_$]{0,99})$";
