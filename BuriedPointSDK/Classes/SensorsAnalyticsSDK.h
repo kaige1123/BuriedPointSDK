@@ -23,6 +23,7 @@
 #import "SASecurityPolicy.h"
 #import "SAConfigOptions.h"
 #import "SAConstants.h"
+#import "MessageQueueBySqlite.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -104,6 +105,9 @@ NS_ASSUME_NONNULL_BEGIN
  * 它也提供了一个 SensorsAnalyticsPeople 类型的 property，用来访问用户 Profile 相关的 API。
  */
 @interface SensorsAnalyticsSDK : NSObject
+
+@property (atomic, readonly, strong) MessageQueueBySqlite *messageQueue;
+
 
 /**
  * @property

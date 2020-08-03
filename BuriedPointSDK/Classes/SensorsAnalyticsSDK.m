@@ -38,7 +38,6 @@
 
 #import "SAJSONUtil.h"
 #import "SAGzipUtility.h"
-#import "MessageQueueBySqlite.h"
 #import "SALogger.h"
 #import "SAReachability.h"
 #import "SASwizzler.h"
@@ -73,7 +72,7 @@
 //#import "SAAuxiliaryToolManager.h"
 #import "SAWeakPropertyContainer.h"
 
-#define VERSION @"1.11.15"
+#define VERSION @"0.1.3"
 
 static NSUInteger const SA_PROPERTY_LENGTH_LIMITATION = 8191;
 
@@ -479,7 +478,7 @@ static SensorsAnalyticsSDK *sharedInstance = nil;
     static dispatch_once_t onceToken;
 
     dispatch_once(&onceToken, ^{
-        NSBundle *sensorsBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[SensorsAnalyticsSDK class]] pathForResource:@"SensorsAnalyticsSDK" ofType:@"bundle"]];
+        NSBundle *sensorsBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[SensorsAnalyticsSDK class]] pathForResource:@"BuriedPointSDK" ofType:@"bundle"]];
         //文件路径
         NSString *jsonPath = [sensorsBundle pathForResource:@"sa_autotrack_viewcontroller_blacklist.json" ofType:nil];
         NSData *jsonData = [NSData dataWithContentsOfFile:jsonPath];
@@ -1153,6 +1152,7 @@ static SensorsAnalyticsSDK *sharedInstance = nil;
 - (BOOL)flushByType:(NSString *)type flushSize:(int)flushSize {
     // 1、获取前 n 条数据
     NSArray *recordArray = [self.messageQueue getFirstRecords:flushSize withType:@"POST"];
+    
     if (recordArray == nil) {
         SAError(@"Failed to get records from SQLite.");
         return NO;
@@ -2306,7 +2306,7 @@ static SensorsAnalyticsSDK *sharedInstance = nil;
             }
         } else if (countryCode && networkCode) { //国外运营商解析
             //加载当前 bundle
-            NSBundle *sensorsBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[SensorsAnalyticsSDK class]] pathForResource:@"SensorsAnalyticsSDK" ofType:@"bundle"]];
+            NSBundle *sensorsBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[SensorsAnalyticsSDK class]] pathForResource:@"BuriedPointSDK" ofType:@"bundle"]];
             //文件路径
             NSString *jsonPath = [sensorsBundle pathForResource:@"sa_mcc_mnc_mini.json" ofType:nil];
             NSData *jsonData = [NSData dataWithContentsOfFile:jsonPath];

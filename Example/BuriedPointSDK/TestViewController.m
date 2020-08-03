@@ -7,6 +7,8 @@
 //
 
 #import "TestViewController.h"
+#import <BuriedPointSDK/SensorsAnalyticsSDK.h>
+#import <BuriedPointSDK/SAAlertController.h>
 
 @interface TestViewController ()
 
@@ -18,7 +20,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.grayColor;
     
-    UIControl *myControl = [[UIControl alloc] initWithFrame:CGRectMake(0, 100, 300, 200)];
+    UIControl *myControl = [[UIControl alloc] initWithFrame:CGRectMake(0, 200, 300, 200)];
     myControl.backgroundColor =UIColor.orangeColor;
     myControl.tag = 2000;
     [myControl addTarget:self action:@selector(myControlAction) forControlEvents:UIControlEventTouchUpInside];
@@ -33,6 +35,16 @@
 
 - (void)myControlAction {
     NSLog(@"myControlAction");
+    MessageQueueBySqlite *kmessageQueue = [SensorsAnalyticsSDK sharedInstance].messageQueue;
+    NSArray *recordArray = [kmessageQueue getFirstRecords:2 withType:@"POST"];
+    SAAlertController *alertController = [[SAAlertController alloc] initWithTitle:@"" message:[NSString stringWithFormat:@"%@",recordArray] preferredStyle:SAAlertControllerStyleAlert];
+    [alertController addActionWithTitle:@"确定" style:SAAlertActionStyleCancel handler:nil];
+    [alertController show];
+    
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

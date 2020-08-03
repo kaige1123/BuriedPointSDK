@@ -7,87 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0657D815CAB55303F31A34921E6915FA /* SASwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D232F3C15739EE851F38FF7164E99835 /* SASwizzle.m */; };
-		0B4DC98805B210C88BA3122740CC9D2F /* BuriedPointSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBF64D3A5B07B1467457B0E463B80C5 /* BuriedPointSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11332242DA603D6F9C79E483711C75DA /* NSString+HashCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A4DD23C6FEFE4F925E2DF3623347E5 /* NSString+HashCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		118447DF80BC0EC47CA4A2B3F8B3CBA0 /* SensorsAnalyticsExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0EB9560A6087CBD39AA451898991DF /* SensorsAnalyticsExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		149802D91B938DBF8DB13B958893994C /* SASecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 136B1A129E9317CA95246783B3E7A3E4 /* SASecurityPolicy.m */; };
-		167508B32CF3888CA2C25CAB0C1F5800 /* NSString+HashCode.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB8182C847454E2F95841573B9933A6 /* NSString+HashCode.m */; };
-		176C6EA8EEFCAD4BE99514782B61C04F /* MessageQueueBySqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D01E79921BCFDFEF2C804C9EED0592 /* MessageQueueBySqlite.m */; };
-		20BDBB740F94167134C2B0830464D3AE /* SAConfigOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 167C7F0F879AC48B9B786ABA6A36D463 /* SAConfigOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		213A849F233BCE0A88F552D5B85702B6 /* UIView+SAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C255652F7E8D610E86FF9B84BD07FEC9 /* UIView+SAHelpers.m */; };
-		244E6CE6D65855E41E60E4F71338FCD2 /* SAConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D8DE595578D9F1247264E0786315010 /* SAConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C9DEAA056AC4BF709D3B6572A8AEFDD /* SAAppExtensionDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0585461005F3C52D289D1ECECC7C3DD3 /* SAAppExtensionDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3815B803C9E111A127F2677068E18C7E /* SACommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DE56D5AA7197640211428AE312EED8A6 /* SACommonUtility.m */; };
-		3D569A920B18F6D9CE5F996448B1AF89 /* SAConfigOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C82476DEEC1FD06106F7513E3096BD4 /* SAConfigOptions.m */; };
-		40B08380CD57B3FAB3BA09852B3EB621 /* SASwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAEC3490C16D14BE6DDB30368330A44 /* SASwizzler.m */; };
-		417FFF2F60E058882E941F088237E4C3 /* UIViewController+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C384838B13E642D0F2278DF27E7CB1 /* UIViewController+AutoTrack.m */; };
-		45714B35FC5F31B78BB6E579B3A6A650 /* SASwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8E2DC115FF6D7AEA329A3BDAD15479 /* SASwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4943E8ABBADF56AE9761090FFF0D7B6D /* SASDKRemoteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6D11F59112FB9B65346B4F2590FCF /* SASDKRemoteConfig.m */; };
-		4CB24494C0FF00A9C8B599F08667998A /* MessageQueueBySqlite.h in Headers */ = {isa = PBXBuildFile; fileRef = 178A0323A346207A5F1ACF5BCC2AC30B /* MessageQueueBySqlite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53FB45421DB639CBB4C79DD92B3CBCF3 /* SAAutoTrackUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2FFF18E1908A4CFCE9B1FC13A9E878 /* SAAutoTrackUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55631CE9608F71296E1D0CFB4D628DF2 /* SAGzipUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D9EACA8D0ACCD72095E58D313E76C9 /* SAGzipUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		558A5941689F8C9C467E1D0597DAB22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		593A865E07BFF01D3C98B3400AC0A58A /* SANetwork+URLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3D714FF08571A1894183B826210726 /* SANetwork+URLUtils.m */; };
-		5BA33B94900C8272C10AED8EB945FCD4 /* UIView+SAHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 123AA56DB4C69F4474431EDB437A2BEE /* UIView+SAHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64E9599B9AA65C68D3F6D4AD977E2900 /* SAJSONUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CC95B1277272460162365773A7F910 /* SAJSONUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		676A1A6AAC71EE216413C4FE83AF4389 /* SAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD28EA65642FDC6532EB2709AC3001 /* SAReachability.m */; };
-		6CDED92962030A2E4FDC419F6CCF3262 /* SAConstants+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 729BE314D333CB78710519131E51D4A6 /* SAConstants+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EE1BD26CF606DCD7B56A89B96A9C84D /* SAReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B5173493E13E5BBADF5321EF6F1019 /* SAReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7162DD644C23BB41953E7B510923ED52 /* SASwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = C670B4C43A8601131946901C76727E11 /* SASwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72F14A7BD49C6A1356573629912BCF3A /* SANetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = D084FFF643FE479D95B4B886FCC22526 /* SANetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75A450B8D3E3CADF44800CE4C2964EDF /* Pods-BuriedPointSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 099BFFB559CAA06D9E67BBF0CE6B1095 /* Pods-BuriedPointSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AB0B6313B8D90EED745A3BA38BCE501 /* SensorsAnalyticsSDK+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F098206D8B13136993E2EA1764258A /* SensorsAnalyticsSDK+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FCC488154D0DEC5F39CD348156A986C /* SAGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED97E1E9DC8A0CBCC2C5A560A52D2F9 /* SAGzipUtility.m */; };
-		83DDCF21F9B6FB4293554D57789F1CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		87C105E5EA65236881EB96BE3AE384AE /* SALogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E44D67D55339EF7A428898B924B3A9 /* SALogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A6C9FF1F53375DA8E003F87BE590F15 /* SAWeakPropertyContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EDE9D080647F10044F6C1C5A151493 /* SAWeakPropertyContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ADBBD1DE97261A1CAF00FCE211514EC /* BuriedPointSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 967DF0BB119EFD09D03065499B6E7AA9 /* BuriedPointSDK-dummy.m */; };
-		8EB05016B1C1629159104AEABB29D22C /* UIApplication+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CC6433E36AB1FBE43A1638F767C4C2 /* UIApplication+AutoTrack.m */; };
-		90FCA498DEAFE973E1E95961A5971B5A /* SAAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C680A8A44D574C82B7B462C71C6557A /* SAAlertController.m */; };
-		93DC9B7C2D84B01D034D3FD2F85FC6D2 /* SensorsAnalyticsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D3A3335A95EB10495B2F62498C2668 /* SensorsAnalyticsSDK.m */; };
-		93E91EE4CA777ADD2E6E718523F4BC65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		93F7E0C1E616D0284F5E101A984791DD /* Pods-BuriedPointSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D9A5E8ADEA961E5AF9D63348577DC6 /* Pods-BuriedPointSDK_Example-dummy.m */; };
-		95F26AA23FFD088DF91B27F5F05C90DE /* Pods-BuriedPointSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B1977BCDAE6AD195341C031EE71966 /* Pods-BuriedPointSDK_Tests-dummy.m */; };
-		9A3EAD7AC46FFCBD5C207421EF55A222 /* SAKeyChainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB1785400AE52911167B7230A15866 /* SAKeyChainItemWrapper.m */; };
-		9F40A85320BD74EE115162FEFF3296D4 /* SAAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1C49D1C6064EF5D662603F601858EB /* SAAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A01E97592F555DC0F97488BB3BF73C6C /* SANetwork+URLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB3DB92C74B289A19CF203943870188 /* SANetwork+URLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1404963106679771F975B1E8318CC7F /* SAWeakPropertyContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A03BDA059FD54D79EE21B8F76AFE2F /* SAWeakPropertyContainer.m */; };
-		A285C0EC1574BB60D7B50D8229775B95 /* UIApplication+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E56F471B671AF5EC8DAAF4C8961F50B /* UIApplication+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A433946FA8225ECEEA1628DAB4823D52 /* Pods-BuriedPointSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1270D8B62E5978B7912A2CA7632AA948 /* Pods-BuriedPointSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A46752670530CFB7292F0F01216D82EA /* SASDKRemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E19CD87AF220C26CAD763D043A7B345 /* SASDKRemoteConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4D496835A4C4C1659BF640ADCC97984 /* UIView+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 100880D33C2FB3C513DBCD2D77706E9B /* UIView+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF0CE129138681A61E05DCFEC1A6FC59 /* SALogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C475F02D36979E818A8B1C85077C68 /* SALogger.m */; };
-		B6E3B83428DB1679885112124D73C4EE /* SACommonUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E90346133210DA773CF5D6FFB9D516 /* SACommonUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8B42FA6DBAF03B0A9225C02E2146A3D /* SensorsAnalyticsExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B6434CA833901FB3B8EFCD1AC4011179 /* SensorsAnalyticsExceptionHandler.m */; };
-		BBDBA735EFBDBEE81F1E84EC2D98C23D /* SADeviceOrientationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D85733CCC5607B51D2662F452564D7 /* SADeviceOrientationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD8CBF8DF888301D02D3C0A316518F94 /* SAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B3347B004FCDDF5A667AFEE75F84FC9B /* SAConstants.m */; };
-		BD90B0382671ED70C6FD032F00474612 /* SAJSONUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DE605F3EE86E588EBD479CE0A70FCC5A /* SAJSONUtil.m */; };
-		C24E5177B281B4B0C6009CC371402B55 /* SALocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F40FBE3EAE45DFFD3C3E6AF347833338 /* SALocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5FA4A8763BECBE53D6886C7F09F3540 /* SensorsAnalyticsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D7A79B4482A5E0E93B07A7F90331DFC /* SensorsAnalyticsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7F89DDEDFD332339A88D1E37E9AD801 /* UIGestureRecognizer+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFDBA8C8DDBC1615D03414544472540 /* UIGestureRecognizer+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D249D4D60C64AF4A21A40A6F4558446A /* SASecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = B1595A4556DBC50CC4750644E0E74890 /* SASecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4491F84DE1F5B447F92481335D7500B /* SAAutoTrackProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E0984661D556F5FCBA91F3AD9F4E39 /* SAAutoTrackProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D58345C3451E7BBC057FE96B82DE0C1C /* SADeviceOrientationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73045FCA3F27DC584B05EF2F3C8484CF /* SADeviceOrientationManager.m */; };
-		D6899413376934F5EB0EA0644E59122A /* SALocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C3E337B19036440D99C74F5E2EC972 /* SALocationManager.m */; };
-		DBFBCCFA7853BE9A22FB9D1997466EAD /* UIView+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = F363D51E7907982D7BDF17905D487647 /* UIView+AutoTrack.m */; };
-		DCBACDD8B0E31AA8F31414CDF9DFAA1B /* UIGestureRecognizer+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = B288F6E77F28A6A26781F040EE55C7D8 /* UIGestureRecognizer+AutoTrack.m */; };
-		EA23BDD3164C13EF8490BF2A67BEC439 /* SAAppExtensionDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E9FB5407D8D2852C952B2541F89C8 /* SAAppExtensionDataManager.m */; };
-		ED437153CACD20A0689542054A9D638A /* SAKeyChainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC9B1B823C25BF0EA86D4864721A498 /* SAKeyChainItemWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED77365E092CC72973453119A125FEA6 /* SANetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF942083609D799BFEE55967062586D /* SANetwork.m */; };
-		EF43245C294BB4AD7805550AECA8072E /* SAAutoTrackUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C572027238A3F564BC1AB8329518E4 /* SAAutoTrackUtils.m */; };
-		EFB1ACE7E4F114782D747DE6DF3232D1 /* UIViewController+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 151AB9EDF9C5C1F9BDE3CB532C17F27B /* UIViewController+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0449AC50902D85ADB775CB9BD77291F8 /* SAConfigOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 488BD12FD3F1F9565D2EEC6ED6AD72B6 /* SAConfigOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046CC8C4C52151812CA4EB43D4641719 /* SASDKRemoteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E123C124869287A766F337AFAD13D40 /* SASDKRemoteConfig.m */; };
+		09B91C209C58605717C738D555495023 /* BuriedPointSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF837B894EA4F0674B33A5C1C6BACBEA /* BuriedPointSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B00DCFE53154F0350D93019EF9525FE /* SensorsAnalyticsExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C4935C3CA5A1C9718E02BFD09A9CA267 /* SensorsAnalyticsExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CE39E07484D8669A5705D1A435BDC29 /* SAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C870374489BB022CF4F2EB8560266E2F /* SAReachability.m */; };
+		153108797CB036943B306F68E65A8933 /* SANetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB558A663D3D7DDEA2757E752C93B3B /* SANetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		171A3AAE7359223CA127A2D1C98D5ED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		18FC16519721AAA81166564EDB1987C8 /* NSString+HashCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 29286367D0A61D2B65EA113F52097A71 /* NSString+HashCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BB8C7028C8675E39B4B4FC739DCE560 /* SACommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADADFFCC2C5FA0F316A1C763C12BC6D /* SACommonUtility.m */; };
+		1DD50DB390F114388106A9767E52FBFE /* sa_mcc_mnc_mini.json in Resources */ = {isa = PBXBuildFile; fileRef = DDD949F0F02C7FEE7BD0E698A864D6B8 /* sa_mcc_mnc_mini.json */; };
+		26FB1F4CEB37275291CF238612BF63EB /* UIView+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A43755E908C60B10771A20B3C7B18379 /* UIView+AutoTrack.m */; };
+		27F40B618DE233059EBF00F7D17AF572 /* SAGzipUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D39C15E2660C3B6358B1953A781D21 /* SAGzipUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294EEFC0EC9330104A0B9B6932485D5A /* sa_headmap_path.json in Resources */ = {isa = PBXBuildFile; fileRef = D3E55FB98048E4C090F8528EEE23CA8B /* sa_headmap_path.json */; };
+		2AA432D7A874EE0AA4CA892B6D45AEDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3869002E16BF5665356B458844020391 /* SASecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EE91D4EE74BB0EAE2D1E4CCA05EB9D /* SASecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A53D1A1DFF5563C6132DB83D65957CA /* UIView+SAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A783DDA184CE8B15826C5BEA20B33C /* UIView+SAHelpers.m */; };
+		3C7943B9E1AE1691EF6D1DA01BB44079 /* SensorsAnalyticsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 03631158A088B576B321AF914E9A9303 /* SensorsAnalyticsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		400C4A4FEBA88BFA4F13ABE5906C7864 /* SALocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1E30B0E8B110831F03DE543B883130 /* SALocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DDCBD96FBE36729C54822A800CEAEF /* UIViewController+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9A2090EF1F89F2ADDEE76D0140C0AC /* UIViewController+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420A57C1A7FB385B6E7DAF824A988BB4 /* MessageQueueBySqlite.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E4E43ED4475621CE0CEDB360C5A639 /* MessageQueueBySqlite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		476240E92D9BD68F4529FEF191A30B7B /* SASwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = C24F57C5D01F8BAAD7EBE3A43F447D91 /* SASwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		532864E83DD3BCAE92D19417E8ECACC7 /* UIView+SAHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 9298C282B6365F296DF09E2E76595A9F /* UIView+SAHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D1EB84AD89A4C5D1D4787D5ACE935A /* SAJSONUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6867325D948FEB3483F90CB7AED2483E /* SAJSONUtil.m */; };
+		53D4525B9E310BE3FE7B65A70C2E1055 /* sa_visualizedautotrack_path.json in Resources */ = {isa = PBXBuildFile; fileRef = AF86B1C3A548D8F8B41352E30CCD0583 /* sa_visualizedautotrack_path.json */; };
+		557EF96349AC9E413362CF1AE7BAC41A /* SAAutoTrackUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 543C06A08444E1C922DFC1E6A825EFB8 /* SAAutoTrackUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5761BB375DC70559BEF69193307BAD4C /* SAConfigOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = B09F618A4539525B4512E4B25DC8009B /* SAConfigOptions.m */; };
+		597902E972F78BBCAAC63044AF11C76C /* SAAppExtensionDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A676974086C888AA0B0DB7FD6CACBBBF /* SAAppExtensionDataManager.m */; };
+		6314133178F7284A9211EA724D7E0398 /* SAKeyChainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F11DBD88991C07C137F7FFC74F27DE8 /* SAKeyChainItemWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		662BB28AD6AC408E2324007C69B381B5 /* BuriedPointSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9699C021AF36207BA3735ECBAE788CD /* BuriedPointSDK-dummy.m */; };
+		6878E17DE6217A4D5A5D31AEBE8DF1AC /* UIGestureRecognizer+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0B9336431FBDD6D252625D1368156E /* UIGestureRecognizer+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ACA9BF043802EA1F5D787AED7380461 /* MessageQueueBySqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 656CA8AB9136E8D8B5999B4A993E5C97 /* MessageQueueBySqlite.m */; };
+		748FC8C78C622EC3931C146DF0F39275 /* Pods-BuriedPointSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 099BFFB559CAA06D9E67BBF0CE6B1095 /* Pods-BuriedPointSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77FC43049C0DDDBB422BCE5725460472 /* SADeviceOrientationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE78BE7AD088EECA29885E150AFFFF /* SADeviceOrientationManager.m */; };
+		7CD55FEFCAD5B0D246174D83AA88CBBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7DC8B22AED055748938A87F53A2AB29C /* SASwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6808FE588D5F77806FBB2815D040A6A /* SASwizzler.m */; };
+		7DDBD2E515890C63D17A0AA03D2A102B /* SANetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D2D3FB6A648D3CA4DF0788829DC250 /* SANetwork.m */; };
+		7DEDBDEB5EA2F97F0BB6E513BF17D8DF /* sa_autotrack_viewcontroller_blacklist.json in Resources */ = {isa = PBXBuildFile; fileRef = E4B4CD9879FF84DEA6D4A7A2FA717448 /* sa_autotrack_viewcontroller_blacklist.json */; };
+		7FB50B980A99CBEDACCD8C4184BB5C39 /* SALogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B38979B990CBA969E572676197E3F0 /* SALogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85B9DB99E5FC3D2B550F24911DB714AE /* Pods-BuriedPointSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D9A5E8ADEA961E5AF9D63348577DC6 /* Pods-BuriedPointSDK_Example-dummy.m */; };
+		87ACB091CE1E514EE41DC4C37A3F169A /* SACommonUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D51F8044EA3AC114015A6BF78C598768 /* SACommonUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		883C306EF5B4E531140FE37CF647006C /* Pods-BuriedPointSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1270D8B62E5978B7912A2CA7632AA948 /* Pods-BuriedPointSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EDB91A67F3164EB96A36B9F9468BFE1 /* SAAutoTrackUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F7C83D3BB29E5E34D1885DAC7DB61F /* SAAutoTrackUtils.m */; };
+		8FB167F4403EC12C731D34B1C420DE91 /* UIGestureRecognizer+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 37241D11583E19A42FD3D4303F933E4B /* UIGestureRecognizer+AutoTrack.m */; };
+		9B6BE9B80627FCCBD9B38241B4B27FE7 /* SAJSONUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 090DCEE6AA469A659858FDA11CD2DADA /* SAJSONUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA1433546753D5D2DB503076394E336 /* SAReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7D6A3FBD122EE506A4A4673F02C48B /* SAReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EFA4BE5C37DF270AF3161FE3A998FD /* SAAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A937E7603E2BAD30BD0E0473EA3AD46 /* SAAlertController.m */; };
+		A21BF8FD945E3502B00931D5516AEA87 /* SAWeakPropertyContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4187BA83800B2C3FEE320828FD6C339 /* SAWeakPropertyContainer.m */; };
+		A2D8F414198268AF6C22860E6E510276 /* SensorsAnalyticsSDK+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C819926F901DCDDB881DCF6DD9342E4F /* SensorsAnalyticsSDK+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6AF601C6CDFE9245DF2F1C5A7F8A24F /* SAConstants+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F0ABD9C10EB0EDF45016A208F7205F5A /* SAConstants+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73F24535AF180AEE39E7D1B54197FB2 /* BuriedPointSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B45C31CFAE5083B80381768DC3874043 /* BuriedPointSDK.bundle */; };
+		A7F914B06E529AF404FAF5FB59FB2CA1 /* NSString+HashCode.m in Sources */ = {isa = PBXBuildFile; fileRef = B40DFE450E822BF05ABE62E94F77992C /* NSString+HashCode.m */; };
+		A97BF23155050F04DF233E0BEFEC5051 /* UIView+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = B79FEC63D3716524041433B2EADAFC0C /* UIView+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC964FFD613353CAB13AB5ACB0950D49 /* SALogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F284EBD83A4535D62805DA8482D3A4B /* SALogger.m */; };
+		AFD707C14C40465EE59736BFD43E5814 /* SANetwork+URLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBDCF73C1FB88D4EC241E662CB8D9C0 /* SANetwork+URLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1EA44B78E848058C589B679A328EA4B /* SANetwork+URLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 870692F1C656AB5F49CE56BCB092444C /* SANetwork+URLUtils.m */; };
+		BB04AB3CE018DD8BE1DDB057AA8043B4 /* SASDKRemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AC523116B1CA79C10C6771DE3FB36E /* SASDKRemoteConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB29E371BE8A7FDF9DC65B9674F17DA8 /* SALocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9653DC4B6499383E3B58FD2824AA77FE /* SALocationManager.m */; };
+		BBFFB2D3F05C4BA79840BD727B54BFE2 /* SAConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE20A745DD1302A60A87D0BE8B4D716 /* SAConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0ADE17CD55EFE5EE053BA6C1A150D54 /* SAAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = C73701725D4CE1FA666263DDCB8FAFF8 /* SAAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C188D93D089B35F6923CE79897348527 /* SensorsAnalyticsExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C464DCFD567684DBA88391967AE4EEDD /* SensorsAnalyticsExceptionHandler.m */; };
+		CD820ADE5EAC958A77889CDB4B76DE56 /* SASecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8A5D2028BA40553E8AB54D485F5A48 /* SASecurityPolicy.m */; };
+		CDE7C893FD7749C3BAE4F4ABA00BCEAF /* SAWeakPropertyContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE953B353B3D0E8C61EF0B734C7BA0D /* SAWeakPropertyContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F2B544B9BD56EE9E2835CA251675AC /* SAKeyChainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A51F6857883F703B61A63B54F0B33EA1 /* SAKeyChainItemWrapper.m */; };
+		DBEA4EE56228AF9EA670FD4BF529ED84 /* SADeviceOrientationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C79AF48F12C9FA0250A41791ADD5DDA /* SADeviceOrientationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB2E9E4120FB5AA0B88C6349613A003 /* SAAutoTrackProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AEC583408C6687A544E2CE76E8FE49 /* SAAutoTrackProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F78B89B19EC401862345209812A8DF /* SASwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 594E3769B3720BC3BEF0123350357C63 /* SASwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73B8A3FE86945453D8E5189CB789D1C /* UIApplication+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A6AF96A906D4A8D9EAC245611AAED2 /* UIApplication+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2F928FAEF9BB1F893E0E9B1680A15C2 /* UIViewController+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1992EC388FEEB74112E299AB8B3D4BFF /* UIViewController+AutoTrack.m */; };
+		F665BB76CB2A46E203CB315C2EACCB1A /* SASwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5CBC0B2A5E964731138C04F9261C0 /* SASwizzle.m */; };
+		F88AED03FD905FAB8FF8EC9881AB1B41 /* SAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = DF570AB3239D9B2C5733FDBEE5044B2D /* SAConstants.m */; };
+		F8ACF8F60FDFD348F12DEB52A00B4923 /* UIApplication+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = F8964C1E1CCEED9C4DA2CAE2C9746C7E /* UIApplication+AutoTrack.m */; };
+		F9844058A6C1AB7335AB09FA5D05C647 /* Pods-BuriedPointSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B1977BCDAE6AD195341C031EE71966 /* Pods-BuriedPointSDK_Tests-dummy.m */; };
+		FC918D4B6F0C8E4FC155AA11FC787D67 /* SAGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E22E9A5733B81860B8523C7FEA33FB6 /* SAGzipUtility.m */; };
+		FEFC51585A30C2B3ED949AFE4D813CB7 /* SAAppExtensionDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059D5F6FC17B704CC5648E880C04B0D /* SAAppExtensionDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF7EA2413478B6A4E808CBFA82691ABF /* SensorsAnalyticsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8737CA24910C7FE1A714907CA9C721 /* SensorsAnalyticsSDK.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E087A5F28670CB44BF054410243D7AA /* PBXContainerItemProxy */ = {
+		0D71855C7DD5AF864832E8C64B9067D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F548CD2FF927654AC28EDD69194308FE;
+			remoteInfo = "BuriedPointSDK-BuriedPointSDK";
+		};
+		D392786BC49F93063AD7A017E11DA282 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1D77DC847A3739D0AA948EB83D60CDB7;
 			remoteInfo = "Pods-BuriedPointSDK_Example";
 		};
-		66404F883A34AA18D0BC552B813B9EA3 /* PBXContainerItemProxy */ = {
+		E5AD8C4CF01D47F4165D22A8AFA97955 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -97,121 +109,136 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0585461005F3C52D289D1ECECC7C3DD3 /* SAAppExtensionDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAppExtensionDataManager.h; path = BuriedPointSDK/Classes/SAAppExtensionDataManager.h; sourceTree = "<group>"; };
-		06A03BDA059FD54D79EE21B8F76AFE2F /* SAWeakPropertyContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAWeakPropertyContainer.m; path = BuriedPointSDK/Classes/SAWeakPropertyContainer.m; sourceTree = "<group>"; };
-		07E44D67D55339EF7A428898B924B3A9 /* SALogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SALogger.h; path = BuriedPointSDK/Classes/SALogger.h; sourceTree = "<group>"; };
+		03631158A088B576B321AF914E9A9303 /* SensorsAnalyticsSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SensorsAnalyticsSDK.h; path = BuriedPointSDK/Classes/SensorsAnalyticsSDK.h; sourceTree = "<group>"; };
+		04A6AF96A906D4A8D9EAC245611AAED2 /* UIApplication+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+AutoTrack.h"; path = "BuriedPointSDK/Classes/UIApplication+AutoTrack.h"; sourceTree = "<group>"; };
+		06CCD10F1CE02FF16B670471FA62C5CE /* BuriedPointSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BuriedPointSDK.modulemap; sourceTree = "<group>"; };
+		07AC523116B1CA79C10C6771DE3FB36E /* SASDKRemoteConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASDKRemoteConfig.h; path = BuriedPointSDK/Classes/SASDKRemoteConfig.h; sourceTree = "<group>"; };
+		090DCEE6AA469A659858FDA11CD2DADA /* SAJSONUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAJSONUtil.h; path = BuriedPointSDK/Classes/SAJSONUtil.h; sourceTree = "<group>"; };
 		099BFFB559CAA06D9E67BBF0CE6B1095 /* Pods-BuriedPointSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuriedPointSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		100880D33C2FB3C513DBCD2D77706E9B /* UIView+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AutoTrack.h"; path = "BuriedPointSDK/Classes/UIView+AutoTrack.h"; sourceTree = "<group>"; };
-		123AA56DB4C69F4474431EDB437A2BEE /* UIView+SAHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SAHelpers.h"; path = "BuriedPointSDK/Classes/UIView+SAHelpers.h"; sourceTree = "<group>"; };
+		0A937E7603E2BAD30BD0E0473EA3AD46 /* SAAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAlertController.m; path = BuriedPointSDK/Classes/SAAlertController.m; sourceTree = "<group>"; };
+		0D1E30B0E8B110831F03DE543B883130 /* SALocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SALocationManager.h; path = BuriedPointSDK/Classes/SALocationManager.h; sourceTree = "<group>"; };
+		0E123C124869287A766F337AFAD13D40 /* SASDKRemoteConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASDKRemoteConfig.m; path = BuriedPointSDK/Classes/SASDKRemoteConfig.m; sourceTree = "<group>"; };
+		0E22E9A5733B81860B8523C7FEA33FB6 /* SAGzipUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAGzipUtility.m; path = BuriedPointSDK/Classes/SAGzipUtility.m; sourceTree = "<group>"; };
 		1270D8B62E5978B7912A2CA7632AA948 /* Pods-BuriedPointSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuriedPointSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		136B1A129E9317CA95246783B3E7A3E4 /* SASecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASecurityPolicy.m; path = BuriedPointSDK/Classes/SASecurityPolicy.m; sourceTree = "<group>"; };
+		1292C0B607D377411621C7EA12F823E6 /* BuriedPointSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BuriedPointSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		145EFB39284982B54E39EB4740355659 /* Pods-BuriedPointSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuriedPointSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		14E90346133210DA773CF5D6FFB9D516 /* SACommonUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SACommonUtility.h; path = BuriedPointSDK/Classes/SACommonUtility.h; sourceTree = "<group>"; };
-		151AB9EDF9C5C1F9BDE3CB532C17F27B /* UIViewController+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AutoTrack.h"; path = "BuriedPointSDK/Classes/UIViewController+AutoTrack.h"; sourceTree = "<group>"; };
-		167C7F0F879AC48B9B786ABA6A36D463 /* SAConfigOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAConfigOptions.h; path = BuriedPointSDK/Classes/SAConfigOptions.h; sourceTree = "<group>"; };
-		178A0323A346207A5F1ACF5BCC2AC30B /* MessageQueueBySqlite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessageQueueBySqlite.h; path = BuriedPointSDK/Classes/MessageQueueBySqlite.h; sourceTree = "<group>"; };
-		18CD28EA65642FDC6532EB2709AC3001 /* SAReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAReachability.m; path = BuriedPointSDK/Classes/SAReachability.m; sourceTree = "<group>"; };
-		1CB6D11F59112FB9B65346B4F2590FCF /* SASDKRemoteConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASDKRemoteConfig.m; path = BuriedPointSDK/Classes/SASDKRemoteConfig.m; sourceTree = "<group>"; };
+		14B38979B990CBA969E572676197E3F0 /* SALogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SALogger.h; path = BuriedPointSDK/Classes/SALogger.h; sourceTree = "<group>"; };
+		1992EC388FEEB74112E299AB8B3D4BFF /* UIViewController+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AutoTrack.m"; path = "BuriedPointSDK/Classes/UIViewController+AutoTrack.m"; sourceTree = "<group>"; };
+		1ADADFFCC2C5FA0F316A1C763C12BC6D /* SACommonUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SACommonUtility.m; path = BuriedPointSDK/Classes/SACommonUtility.m; sourceTree = "<group>"; };
+		1EAA5C0D823925545811FFCFD4D45FF5 /* BuriedPointSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BuriedPointSDK.release.xcconfig; sourceTree = "<group>"; };
+		1EB558A663D3D7DDEA2757E752C93B3B /* SANetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SANetwork.h; path = BuriedPointSDK/Classes/SANetwork.h; sourceTree = "<group>"; };
 		20C1AAA53C8A1AD96031897F94171AE2 /* Pods-BuriedPointSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuriedPointSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		24A4DD23C6FEFE4F925E2DF3623347E5 /* NSString+HashCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HashCode.h"; path = "BuriedPointSDK/Classes/NSString+HashCode.h"; sourceTree = "<group>"; };
+		228A0DEA2E86A0E9C50A5B9CD0E38569 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		26D2D3FB6A648D3CA4DF0788829DC250 /* SANetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SANetwork.m; path = BuriedPointSDK/Classes/SANetwork.m; sourceTree = "<group>"; };
+		28E84CC9514281700DA9D1F985A7BB09 /* BuriedPointSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BuriedPointSDK-prefix.pch"; sourceTree = "<group>"; };
+		29286367D0A61D2B65EA113F52097A71 /* NSString+HashCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HashCode.h"; path = "BuriedPointSDK/Classes/NSString+HashCode.h"; sourceTree = "<group>"; };
 		29696DDC4D1C1615AFDFFAC07B15E0A1 /* Pods-BuriedPointSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BuriedPointSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		2C82476DEEC1FD06106F7513E3096BD4 /* SAConfigOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAConfigOptions.m; path = BuriedPointSDK/Classes/SAConfigOptions.m; sourceTree = "<group>"; };
-		2CC9B1B823C25BF0EA86D4864721A498 /* SAKeyChainItemWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAKeyChainItemWrapper.h; path = BuriedPointSDK/Classes/SAKeyChainItemWrapper.h; sourceTree = "<group>"; };
-		2E19CD87AF220C26CAD763D043A7B345 /* SASDKRemoteConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASDKRemoteConfig.h; path = BuriedPointSDK/Classes/SASDKRemoteConfig.h; sourceTree = "<group>"; };
+		2C79AF48F12C9FA0250A41791ADD5DDA /* SADeviceOrientationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeviceOrientationManager.h; path = BuriedPointSDK/Classes/SADeviceOrientationManager.h; sourceTree = "<group>"; };
+		2CB5CBC0B2A5E964731138C04F9261C0 /* SASwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASwizzle.m; path = BuriedPointSDK/Classes/SASwizzle.m; sourceTree = "<group>"; };
+		2EBDCF73C1FB88D4EC241E662CB8D9C0 /* SANetwork+URLUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SANetwork+URLUtils.h"; path = "BuriedPointSDK/Classes/SANetwork+URLUtils.h"; sourceTree = "<group>"; };
+		30EE91D4EE74BB0EAE2D1E4CCA05EB9D /* SASecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASecurityPolicy.h; path = BuriedPointSDK/Classes/SASecurityPolicy.h; sourceTree = "<group>"; };
 		31D3D1039ED9576FC459D1DA058C2AF8 /* BuriedPointSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BuriedPointSDK.framework; path = BuriedPointSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3623617F57EB4A3ED0986B7CB06D7957 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3D7E9FB5407D8D2852C952B2541F89C8 /* SAAppExtensionDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAppExtensionDataManager.m; path = BuriedPointSDK/Classes/SAAppExtensionDataManager.m; sourceTree = "<group>"; };
-		48D1DC2BBDCAC5318AF4D623641D7C45 /* BuriedPointSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BuriedPointSDK-prefix.pch"; sourceTree = "<group>"; };
+		37241D11583E19A42FD3D4303F933E4B /* UIGestureRecognizer+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+AutoTrack.m"; path = "BuriedPointSDK/Classes/UIGestureRecognizer+AutoTrack.m"; sourceTree = "<group>"; };
+		3B74A3CF9F70949E9716938E6641391E /* BuriedPointSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BuriedPointSDK-Info.plist"; sourceTree = "<group>"; };
+		488BD12FD3F1F9565D2EEC6ED6AD72B6 /* SAConfigOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAConfigOptions.h; path = BuriedPointSDK/Classes/SAConfigOptions.h; sourceTree = "<group>"; };
 		48D4BCC0DCA4C28183439FC2608CB00C /* Pods-BuriedPointSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BuriedPointSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4AFDBA8C8DDBC1615D03414544472540 /* UIGestureRecognizer+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+AutoTrack.h"; path = "BuriedPointSDK/Classes/UIGestureRecognizer+AutoTrack.h"; sourceTree = "<group>"; };
-		4C680A8A44D574C82B7B462C71C6557A /* SAAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAlertController.m; path = BuriedPointSDK/Classes/SAAlertController.m; sourceTree = "<group>"; };
-		4D7A79B4482A5E0E93B07A7F90331DFC /* SensorsAnalyticsSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SensorsAnalyticsSDK.h; path = BuriedPointSDK/Classes/SensorsAnalyticsSDK.h; sourceTree = "<group>"; };
-		4DBF64D3A5B07B1467457B0E463B80C5 /* BuriedPointSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BuriedPointSDK-umbrella.h"; sourceTree = "<group>"; };
-		4E56F471B671AF5EC8DAAF4C8961F50B /* UIApplication+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+AutoTrack.h"; path = "BuriedPointSDK/Classes/UIApplication+AutoTrack.h"; sourceTree = "<group>"; };
 		5204E6FA27727322F5380E701CA48C9F /* Pods-BuriedPointSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuriedPointSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5C8E2DC115FF6D7AEA329A3BDAD15479 /* SASwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASwizzle.h; path = BuriedPointSDK/Classes/SASwizzle.h; sourceTree = "<group>"; };
-		5D1C49D1C6064EF5D662603F601858EB /* SAAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAlertController.h; path = BuriedPointSDK/Classes/SAAlertController.h; sourceTree = "<group>"; };
-		64B5173493E13E5BBADF5321EF6F1019 /* SAReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAReachability.h; path = BuriedPointSDK/Classes/SAReachability.h; sourceTree = "<group>"; };
-		67D01E79921BCFDFEF2C804C9EED0592 /* MessageQueueBySqlite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MessageQueueBySqlite.m; path = BuriedPointSDK/Classes/MessageQueueBySqlite.m; sourceTree = "<group>"; };
-		67EDE9D080647F10044F6C1C5A151493 /* SAWeakPropertyContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAWeakPropertyContainer.h; path = BuriedPointSDK/Classes/SAWeakPropertyContainer.h; sourceTree = "<group>"; };
+		543C06A08444E1C922DFC1E6A825EFB8 /* SAAutoTrackUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAutoTrackUtils.h; path = BuriedPointSDK/Classes/SAAutoTrackUtils.h; sourceTree = "<group>"; };
+		594E3769B3720BC3BEF0123350357C63 /* SASwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASwizzler.h; path = BuriedPointSDK/Classes/SASwizzler.h; sourceTree = "<group>"; };
+		6059D5F6FC17B704CC5648E880C04B0D /* SAAppExtensionDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAppExtensionDataManager.h; path = BuriedPointSDK/Classes/SAAppExtensionDataManager.h; sourceTree = "<group>"; };
+		656CA8AB9136E8D8B5999B4A993E5C97 /* MessageQueueBySqlite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MessageQueueBySqlite.m; path = BuriedPointSDK/Classes/MessageQueueBySqlite.m; sourceTree = "<group>"; };
+		67A783DDA184CE8B15826C5BEA20B33C /* UIView+SAHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SAHelpers.m"; path = "BuriedPointSDK/Classes/UIView+SAHelpers.m"; sourceTree = "<group>"; };
+		6867325D948FEB3483F90CB7AED2483E /* SAJSONUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAJSONUtil.m; path = BuriedPointSDK/Classes/SAJSONUtil.m; sourceTree = "<group>"; };
+		6BDE78BE7AD088EECA29885E150AFFFF /* SADeviceOrientationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADeviceOrientationManager.m; path = BuriedPointSDK/Classes/SADeviceOrientationManager.m; sourceTree = "<group>"; };
 		6CA266E73D29F654BE8C8CC448CBF18E /* Pods-BuriedPointSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuriedPointSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		70C572027238A3F564BC1AB8329518E4 /* SAAutoTrackUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAutoTrackUtils.m; path = BuriedPointSDK/Classes/SAAutoTrackUtils.m; sourceTree = "<group>"; };
-		70F098206D8B13136993E2EA1764258A /* SensorsAnalyticsSDK+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+Private.h"; path = "BuriedPointSDK/Classes/SensorsAnalyticsSDK+Private.h"; sourceTree = "<group>"; };
+		6CE20A745DD1302A60A87D0BE8B4D716 /* SAConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAConstants.h; path = BuriedPointSDK/Classes/SAConstants.h; sourceTree = "<group>"; };
 		7142CDABB6537D2644D6FF609E9F24BB /* Pods-BuriedPointSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuriedPointSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7217BFDC9E2CF66B16FAC4AE4DFED308 /* Pods-BuriedPointSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuriedPointSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		729BE314D333CB78710519131E51D4A6 /* SAConstants+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAConstants+Private.h"; path = "BuriedPointSDK/Classes/SAConstants+Private.h"; sourceTree = "<group>"; };
-		73045FCA3F27DC584B05EF2F3C8484CF /* SADeviceOrientationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADeviceOrientationManager.m; path = BuriedPointSDK/Classes/SADeviceOrientationManager.m; sourceTree = "<group>"; };
-		76D3A3335A95EB10495B2F62498C2668 /* SensorsAnalyticsSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SensorsAnalyticsSDK.m; path = BuriedPointSDK/Classes/SensorsAnalyticsSDK.m; sourceTree = "<group>"; };
-		7BF942083609D799BFEE55967062586D /* SANetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SANetwork.m; path = BuriedPointSDK/Classes/SANetwork.m; sourceTree = "<group>"; };
-		7C3D714FF08571A1894183B826210726 /* SANetwork+URLUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SANetwork+URLUtils.m"; path = "BuriedPointSDK/Classes/SANetwork+URLUtils.m"; sourceTree = "<group>"; };
-		83C384838B13E642D0F2278DF27E7CB1 /* UIViewController+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AutoTrack.m"; path = "BuriedPointSDK/Classes/UIViewController+AutoTrack.m"; sourceTree = "<group>"; };
-		89CC6433E36AB1FBE43A1638F767C4C2 /* UIApplication+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+AutoTrack.m"; path = "BuriedPointSDK/Classes/UIApplication+AutoTrack.m"; sourceTree = "<group>"; };
-		8CF0C2561E9A9AFE9D1A88BA826807D4 /* BuriedPointSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BuriedPointSDK.xcconfig; sourceTree = "<group>"; };
-		8D0EB9560A6087CBD39AA451898991DF /* SensorsAnalyticsExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SensorsAnalyticsExceptionHandler.h; path = BuriedPointSDK/Classes/SensorsAnalyticsExceptionHandler.h; sourceTree = "<group>"; };
-		8E2FFF18E1908A4CFCE9B1FC13A9E878 /* SAAutoTrackUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAutoTrackUtils.h; path = BuriedPointSDK/Classes/SAAutoTrackUtils.h; sourceTree = "<group>"; };
-		8ED97E1E9DC8A0CBCC2C5A560A52D2F9 /* SAGzipUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAGzipUtility.m; path = BuriedPointSDK/Classes/SAGzipUtility.m; sourceTree = "<group>"; };
-		8FB3DB92C74B289A19CF203943870188 /* SANetwork+URLUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SANetwork+URLUtils.h"; path = "BuriedPointSDK/Classes/SANetwork+URLUtils.h"; sourceTree = "<group>"; };
+		7E7D6A3FBD122EE506A4A4673F02C48B /* SAReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAReachability.h; path = BuriedPointSDK/Classes/SAReachability.h; sourceTree = "<group>"; };
+		861D1F16E2A73D7A7130519FE4E6DB86 /* BuriedPointSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BuriedPointSDK.debug.xcconfig; sourceTree = "<group>"; };
+		870692F1C656AB5F49CE56BCB092444C /* SANetwork+URLUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SANetwork+URLUtils.m"; path = "BuriedPointSDK/Classes/SANetwork+URLUtils.m"; sourceTree = "<group>"; };
+		8A8737CA24910C7FE1A714907CA9C721 /* SensorsAnalyticsSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SensorsAnalyticsSDK.m; path = BuriedPointSDK/Classes/SensorsAnalyticsSDK.m; sourceTree = "<group>"; };
+		8A9A2090EF1F89F2ADDEE76D0140C0AC /* UIViewController+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AutoTrack.h"; path = "BuriedPointSDK/Classes/UIViewController+AutoTrack.h"; sourceTree = "<group>"; };
+		8F284EBD83A4535D62805DA8482D3A4B /* SALogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SALogger.m; path = BuriedPointSDK/Classes/SALogger.m; sourceTree = "<group>"; };
+		9298C282B6365F296DF09E2E76595A9F /* UIView+SAHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SAHelpers.h"; path = "BuriedPointSDK/Classes/UIView+SAHelpers.h"; sourceTree = "<group>"; };
 		92D9A5E8ADEA961E5AF9D63348577DC6 /* Pods-BuriedPointSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuriedPointSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		967DF0BB119EFD09D03065499B6E7AA9 /* BuriedPointSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BuriedPointSDK-dummy.m"; sourceTree = "<group>"; };
-		9D8DE595578D9F1247264E0786315010 /* SAConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAConstants.h; path = BuriedPointSDK/Classes/SAConstants.h; sourceTree = "<group>"; };
+		9653DC4B6499383E3B58FD2824AA77FE /* SALocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SALocationManager.m; path = BuriedPointSDK/Classes/SALocationManager.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3DABA051FB3560774214B14D22209C /* Pods_BuriedPointSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BuriedPointSDK_Example.framework; path = "Pods-BuriedPointSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1E0984661D556F5FCBA91F3AD9F4E39 /* SAAutoTrackProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAutoTrackProperty.h; path = BuriedPointSDK/Classes/SAAutoTrackProperty.h; sourceTree = "<group>"; };
-		A2C3E337B19036440D99C74F5E2EC972 /* SALocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SALocationManager.m; path = BuriedPointSDK/Classes/SALocationManager.m; sourceTree = "<group>"; };
-		ABAB1785400AE52911167B7230A15866 /* SAKeyChainItemWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAKeyChainItemWrapper.m; path = BuriedPointSDK/Classes/SAKeyChainItemWrapper.m; sourceTree = "<group>"; };
+		9F11DBD88991C07C137F7FFC74F27DE8 /* SAKeyChainItemWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAKeyChainItemWrapper.h; path = BuriedPointSDK/Classes/SAKeyChainItemWrapper.h; sourceTree = "<group>"; };
+		A00E317E1C446F41C25D4AFF5EB57316 /* ResourceBundle-BuriedPointSDK-BuriedPointSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BuriedPointSDK-BuriedPointSDK-Info.plist"; sourceTree = "<group>"; };
+		A2AEC583408C6687A544E2CE76E8FE49 /* SAAutoTrackProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAutoTrackProperty.h; path = BuriedPointSDK/Classes/SAAutoTrackProperty.h; sourceTree = "<group>"; };
+		A43755E908C60B10771A20B3C7B18379 /* UIView+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AutoTrack.m"; path = "BuriedPointSDK/Classes/UIView+AutoTrack.m"; sourceTree = "<group>"; };
+		A4F7C83D3BB29E5E34D1885DAC7DB61F /* SAAutoTrackUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAutoTrackUtils.m; path = BuriedPointSDK/Classes/SAAutoTrackUtils.m; sourceTree = "<group>"; };
+		A51F6857883F703B61A63B54F0B33EA1 /* SAKeyChainItemWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAKeyChainItemWrapper.m; path = BuriedPointSDK/Classes/SAKeyChainItemWrapper.m; sourceTree = "<group>"; };
+		A676974086C888AA0B0DB7FD6CACBBBF /* SAAppExtensionDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAppExtensionDataManager.m; path = BuriedPointSDK/Classes/SAAppExtensionDataManager.m; sourceTree = "<group>"; };
 		AC351A43CE2173AA990B6E57CD9B3CD0 /* Pods_BuriedPointSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BuriedPointSDK_Tests.framework; path = "Pods-BuriedPointSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1595A4556DBC50CC4750644E0E74890 /* SASecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASecurityPolicy.h; path = BuriedPointSDK/Classes/SASecurityPolicy.h; sourceTree = "<group>"; };
-		B288F6E77F28A6A26781F040EE55C7D8 /* UIGestureRecognizer+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+AutoTrack.m"; path = "BuriedPointSDK/Classes/UIGestureRecognizer+AutoTrack.m"; sourceTree = "<group>"; };
-		B3347B004FCDDF5A667AFEE75F84FC9B /* SAConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAConstants.m; path = BuriedPointSDK/Classes/SAConstants.m; sourceTree = "<group>"; };
-		B6434CA833901FB3B8EFCD1AC4011179 /* SensorsAnalyticsExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SensorsAnalyticsExceptionHandler.m; path = BuriedPointSDK/Classes/SensorsAnalyticsExceptionHandler.m; sourceTree = "<group>"; };
+		AF86B1C3A548D8F8B41352E30CCD0583 /* sa_visualizedautotrack_path.json */ = {isa = PBXFileReference; includeInIndex = 1; name = sa_visualizedautotrack_path.json; path = BuriedPointSDK/Assets/sa_visualizedautotrack_path.json; sourceTree = "<group>"; };
+		B09F618A4539525B4512E4B25DC8009B /* SAConfigOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAConfigOptions.m; path = BuriedPointSDK/Classes/SAConfigOptions.m; sourceTree = "<group>"; };
+		B40DFE450E822BF05ABE62E94F77992C /* NSString+HashCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HashCode.m"; path = "BuriedPointSDK/Classes/NSString+HashCode.m"; sourceTree = "<group>"; };
+		B45C31CFAE5083B80381768DC3874043 /* BuriedPointSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BuriedPointSDK.bundle; path = "BuriedPointSDK-BuriedPointSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79FEC63D3716524041433B2EADAFC0C /* UIView+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AutoTrack.h"; path = "BuriedPointSDK/Classes/UIView+AutoTrack.h"; sourceTree = "<group>"; };
+		B9699C021AF36207BA3735ECBAE788CD /* BuriedPointSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BuriedPointSDK-dummy.m"; sourceTree = "<group>"; };
 		C05C76116B6F96D61E9C897AE86B9578 /* Pods-BuriedPointSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuriedPointSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C1DE34E6FA478CA56B363F5719935902 /* BuriedPointSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BuriedPointSDK-Info.plist"; sourceTree = "<group>"; };
-		C255652F7E8D610E86FF9B84BD07FEC9 /* UIView+SAHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SAHelpers.m"; path = "BuriedPointSDK/Classes/UIView+SAHelpers.m"; sourceTree = "<group>"; };
+		C0E4E43ED4475621CE0CEDB360C5A639 /* MessageQueueBySqlite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessageQueueBySqlite.h; path = BuriedPointSDK/Classes/MessageQueueBySqlite.h; sourceTree = "<group>"; };
+		C24F57C5D01F8BAAD7EBE3A43F447D91 /* SASwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASwizzle.h; path = BuriedPointSDK/Classes/SASwizzle.h; sourceTree = "<group>"; };
+		C464DCFD567684DBA88391967AE4EEDD /* SensorsAnalyticsExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SensorsAnalyticsExceptionHandler.m; path = BuriedPointSDK/Classes/SensorsAnalyticsExceptionHandler.m; sourceTree = "<group>"; };
+		C4935C3CA5A1C9718E02BFD09A9CA267 /* SensorsAnalyticsExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SensorsAnalyticsExceptionHandler.h; path = BuriedPointSDK/Classes/SensorsAnalyticsExceptionHandler.h; sourceTree = "<group>"; };
 		C54150BF7C5DF4B83538E5CD4332B293 /* Pods-BuriedPointSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuriedPointSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C5FA0E1D0318AD3C963465A6452CDC05 /* Pods-BuriedPointSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuriedPointSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C670B4C43A8601131946901C76727E11 /* SASwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASwizzler.h; path = BuriedPointSDK/Classes/SASwizzler.h; sourceTree = "<group>"; };
-		C6CC95B1277272460162365773A7F910 /* SAJSONUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAJSONUtil.h; path = BuriedPointSDK/Classes/SAJSONUtil.h; sourceTree = "<group>"; };
-		C6E4D26780AFE514C4AFE4BCEEEEE868 /* BuriedPointSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BuriedPointSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C7187B5183A309DC8E7F16B6D382CC78 /* Pods-BuriedPointSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuriedPointSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		C73701725D4CE1FA666263DDCB8FAFF8 /* SAAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAlertController.h; path = BuriedPointSDK/Classes/SAAlertController.h; sourceTree = "<group>"; };
+		C819926F901DCDDB881DCF6DD9342E4F /* SensorsAnalyticsSDK+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SensorsAnalyticsSDK+Private.h"; path = "BuriedPointSDK/Classes/SensorsAnalyticsSDK+Private.h"; sourceTree = "<group>"; };
+		C870374489BB022CF4F2EB8560266E2F /* SAReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAReachability.m; path = BuriedPointSDK/Classes/SAReachability.m; sourceTree = "<group>"; };
 		C8B1977BCDAE6AD195341C031EE71966 /* Pods-BuriedPointSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuriedPointSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		CAAEC3490C16D14BE6DDB30368330A44 /* SASwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASwizzler.m; path = BuriedPointSDK/Classes/SASwizzler.m; sourceTree = "<group>"; };
 		CB8BBDE86BCB0D30C8ABCEC6B8B0F32D /* Pods-BuriedPointSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BuriedPointSDK_Example.modulemap"; sourceTree = "<group>"; };
-		D084FFF643FE479D95B4B886FCC22526 /* SANetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SANetwork.h; path = BuriedPointSDK/Classes/SANetwork.h; sourceTree = "<group>"; };
-		D232F3C15739EE851F38FF7164E99835 /* SASwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASwizzle.m; path = BuriedPointSDK/Classes/SASwizzle.m; sourceTree = "<group>"; };
-		D3C475F02D36979E818A8B1C85077C68 /* SALogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SALogger.m; path = BuriedPointSDK/Classes/SALogger.m; sourceTree = "<group>"; };
-		DE56D5AA7197640211428AE312EED8A6 /* SACommonUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SACommonUtility.m; path = BuriedPointSDK/Classes/SACommonUtility.m; sourceTree = "<group>"; };
-		DE605F3EE86E588EBD479CE0A70FCC5A /* SAJSONUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAJSONUtil.m; path = BuriedPointSDK/Classes/SAJSONUtil.m; sourceTree = "<group>"; };
-		E1D85733CCC5607B51D2662F452564D7 /* SADeviceOrientationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeviceOrientationManager.h; path = BuriedPointSDK/Classes/SADeviceOrientationManager.h; sourceTree = "<group>"; };
-		E2D9EACA8D0ACCD72095E58D313E76C9 /* SAGzipUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAGzipUtility.h; path = BuriedPointSDK/Classes/SAGzipUtility.h; sourceTree = "<group>"; };
-		EDB8182C847454E2F95841573B9933A6 /* NSString+HashCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HashCode.m"; path = "BuriedPointSDK/Classes/NSString+HashCode.m"; sourceTree = "<group>"; };
-		F363D51E7907982D7BDF17905D487647 /* UIView+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AutoTrack.m"; path = "BuriedPointSDK/Classes/UIView+AutoTrack.m"; sourceTree = "<group>"; };
-		F40FBE3EAE45DFFD3C3E6AF347833338 /* SALocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SALocationManager.h; path = BuriedPointSDK/Classes/SALocationManager.h; sourceTree = "<group>"; };
-		FED2D6E5E26E6F83FC1FC60A0628455A /* BuriedPointSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BuriedPointSDK.modulemap; sourceTree = "<group>"; };
+		CE0B9336431FBDD6D252625D1368156E /* UIGestureRecognizer+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+AutoTrack.h"; path = "BuriedPointSDK/Classes/UIGestureRecognizer+AutoTrack.h"; sourceTree = "<group>"; };
+		CF837B894EA4F0674B33A5C1C6BACBEA /* BuriedPointSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BuriedPointSDK-umbrella.h"; sourceTree = "<group>"; };
+		CFE953B353B3D0E8C61EF0B734C7BA0D /* SAWeakPropertyContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAWeakPropertyContainer.h; path = BuriedPointSDK/Classes/SAWeakPropertyContainer.h; sourceTree = "<group>"; };
+		D3E55FB98048E4C090F8528EEE23CA8B /* sa_headmap_path.json */ = {isa = PBXFileReference; includeInIndex = 1; name = sa_headmap_path.json; path = BuriedPointSDK/Assets/sa_headmap_path.json; sourceTree = "<group>"; };
+		D51F8044EA3AC114015A6BF78C598768 /* SACommonUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SACommonUtility.h; path = BuriedPointSDK/Classes/SACommonUtility.h; sourceTree = "<group>"; };
+		D6808FE588D5F77806FBB2815D040A6A /* SASwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASwizzler.m; path = BuriedPointSDK/Classes/SASwizzler.m; sourceTree = "<group>"; };
+		DDD949F0F02C7FEE7BD0E698A864D6B8 /* sa_mcc_mnc_mini.json */ = {isa = PBXFileReference; includeInIndex = 1; name = sa_mcc_mnc_mini.json; path = BuriedPointSDK/Assets/sa_mcc_mnc_mini.json; sourceTree = "<group>"; };
+		DF570AB3239D9B2C5733FDBEE5044B2D /* SAConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAConstants.m; path = BuriedPointSDK/Classes/SAConstants.m; sourceTree = "<group>"; };
+		E4B4CD9879FF84DEA6D4A7A2FA717448 /* sa_autotrack_viewcontroller_blacklist.json */ = {isa = PBXFileReference; includeInIndex = 1; name = sa_autotrack_viewcontroller_blacklist.json; path = BuriedPointSDK/Assets/sa_autotrack_viewcontroller_blacklist.json; sourceTree = "<group>"; };
+		E8D39C15E2660C3B6358B1953A781D21 /* SAGzipUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAGzipUtility.h; path = BuriedPointSDK/Classes/SAGzipUtility.h; sourceTree = "<group>"; };
+		F0ABD9C10EB0EDF45016A208F7205F5A /* SAConstants+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAConstants+Private.h"; path = "BuriedPointSDK/Classes/SAConstants+Private.h"; sourceTree = "<group>"; };
+		F4187BA83800B2C3FEE320828FD6C339 /* SAWeakPropertyContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAWeakPropertyContainer.m; path = BuriedPointSDK/Classes/SAWeakPropertyContainer.m; sourceTree = "<group>"; };
+		F8964C1E1CCEED9C4DA2CAE2C9746C7E /* UIApplication+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+AutoTrack.m"; path = "BuriedPointSDK/Classes/UIApplication+AutoTrack.m"; sourceTree = "<group>"; };
+		FB8A5D2028BA40553E8AB54D485F5A48 /* SASecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASecurityPolicy.m; path = BuriedPointSDK/Classes/SASecurityPolicy.m; sourceTree = "<group>"; };
+		FD6B616D2BCD686E396C7F2D5DAD5038 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		642A7407DF3C5778A70BE7D157C2ADCC /* Frameworks */ = {
+		4327193E46D541F7E0672DB870D8D6E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83DDCF21F9B6FB4293554D57789F1CC7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87A950D10E5FF6DB2E584014AA335F1F /* Frameworks */ = {
+		683FBF67815F5FF4594BCB1F1FE6F4FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558A5941689F8C9C467E1D0597DAB22E /* Foundation.framework in Frameworks */,
+				171A3AAE7359223CA127A2D1C98D5ED2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		945E3E857CFD90A7A5B89A4305F46102 /* Frameworks */ = {
+		9F329916B6C49E9859CCD886E94F4D47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93E91EE4CA777ADD2E6E718523F4BC65 /* Foundation.framework in Frameworks */,
+				7CD55FEFCAD5B0D246174D83AA88CBBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EA0CE1DBB9C329B2FFF49E840B4A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA432D7A874EE0AA4CA892B6D45AEDD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +261,25 @@
 			path = "Target Support Files/Pods-BuriedPointSDK_Tests";
 			sourceTree = "<group>";
 		};
+		1F0046443EECA06553B61C5362EADC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B45C31CFAE5083B80381768DC3874043 /* BuriedPointSDK.bundle */,
+				31D3D1039ED9576FC459D1DA058C2AF8 /* BuriedPointSDK.framework */,
+				9E3DABA051FB3560774214B14D22209C /* Pods_BuriedPointSDK_Example.framework */,
+				AC351A43CE2173AA990B6E57CD9B3CD0 /* Pods_BuriedPointSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE20E1E80F462B98FF96B79D59C3AB4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C3C3CD5C9B6981C319939DE070A9DA4 /* BuriedPointSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		713F1C43045998506A2C3EF767F6B2BF /* Pods-BuriedPointSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,16 +297,6 @@
 			path = "Target Support Files/Pods-BuriedPointSDK_Example";
 			sourceTree = "<group>";
 		};
-		785E30373CC7ED715DCF845FF8933F18 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				31D3D1039ED9576FC459D1DA058C2AF8 /* BuriedPointSDK.framework */,
-				9E3DABA051FB3560774214B14D22209C /* Pods_BuriedPointSDK_Example.framework */,
-				AC351A43CE2173AA990B6E57CD9B3CD0 /* Pods_BuriedPointSDK_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		82AFAF82B3C3E269F4A4F07A2778FE7D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +304,99 @@
 				09D5BE11BE9B7BE3CFF9C569407C21E5 /* Pods-BuriedPointSDK_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		87FBB3B050E4FEE7A87673AC50B5FCCD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1292C0B607D377411621C7EA12F823E6 /* BuriedPointSDK.podspec */,
+				FD6B616D2BCD686E396C7F2D5DAD5038 /* LICENSE */,
+				228A0DEA2E86A0E9C50A5B9CD0E38569 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C3C3CD5C9B6981C319939DE070A9DA4 /* BuriedPointSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4E43ED4475621CE0CEDB360C5A639 /* MessageQueueBySqlite.h */,
+				656CA8AB9136E8D8B5999B4A993E5C97 /* MessageQueueBySqlite.m */,
+				29286367D0A61D2B65EA113F52097A71 /* NSString+HashCode.h */,
+				B40DFE450E822BF05ABE62E94F77992C /* NSString+HashCode.m */,
+				C73701725D4CE1FA666263DDCB8FAFF8 /* SAAlertController.h */,
+				0A937E7603E2BAD30BD0E0473EA3AD46 /* SAAlertController.m */,
+				6059D5F6FC17B704CC5648E880C04B0D /* SAAppExtensionDataManager.h */,
+				A676974086C888AA0B0DB7FD6CACBBBF /* SAAppExtensionDataManager.m */,
+				A2AEC583408C6687A544E2CE76E8FE49 /* SAAutoTrackProperty.h */,
+				543C06A08444E1C922DFC1E6A825EFB8 /* SAAutoTrackUtils.h */,
+				A4F7C83D3BB29E5E34D1885DAC7DB61F /* SAAutoTrackUtils.m */,
+				D51F8044EA3AC114015A6BF78C598768 /* SACommonUtility.h */,
+				1ADADFFCC2C5FA0F316A1C763C12BC6D /* SACommonUtility.m */,
+				488BD12FD3F1F9565D2EEC6ED6AD72B6 /* SAConfigOptions.h */,
+				B09F618A4539525B4512E4B25DC8009B /* SAConfigOptions.m */,
+				6CE20A745DD1302A60A87D0BE8B4D716 /* SAConstants.h */,
+				DF570AB3239D9B2C5733FDBEE5044B2D /* SAConstants.m */,
+				F0ABD9C10EB0EDF45016A208F7205F5A /* SAConstants+Private.h */,
+				2C79AF48F12C9FA0250A41791ADD5DDA /* SADeviceOrientationManager.h */,
+				6BDE78BE7AD088EECA29885E150AFFFF /* SADeviceOrientationManager.m */,
+				E8D39C15E2660C3B6358B1953A781D21 /* SAGzipUtility.h */,
+				0E22E9A5733B81860B8523C7FEA33FB6 /* SAGzipUtility.m */,
+				090DCEE6AA469A659858FDA11CD2DADA /* SAJSONUtil.h */,
+				6867325D948FEB3483F90CB7AED2483E /* SAJSONUtil.m */,
+				9F11DBD88991C07C137F7FFC74F27DE8 /* SAKeyChainItemWrapper.h */,
+				A51F6857883F703B61A63B54F0B33EA1 /* SAKeyChainItemWrapper.m */,
+				0D1E30B0E8B110831F03DE543B883130 /* SALocationManager.h */,
+				9653DC4B6499383E3B58FD2824AA77FE /* SALocationManager.m */,
+				14B38979B990CBA969E572676197E3F0 /* SALogger.h */,
+				8F284EBD83A4535D62805DA8482D3A4B /* SALogger.m */,
+				1EB558A663D3D7DDEA2757E752C93B3B /* SANetwork.h */,
+				26D2D3FB6A648D3CA4DF0788829DC250 /* SANetwork.m */,
+				2EBDCF73C1FB88D4EC241E662CB8D9C0 /* SANetwork+URLUtils.h */,
+				870692F1C656AB5F49CE56BCB092444C /* SANetwork+URLUtils.m */,
+				7E7D6A3FBD122EE506A4A4673F02C48B /* SAReachability.h */,
+				C870374489BB022CF4F2EB8560266E2F /* SAReachability.m */,
+				07AC523116B1CA79C10C6771DE3FB36E /* SASDKRemoteConfig.h */,
+				0E123C124869287A766F337AFAD13D40 /* SASDKRemoteConfig.m */,
+				30EE91D4EE74BB0EAE2D1E4CCA05EB9D /* SASecurityPolicy.h */,
+				FB8A5D2028BA40553E8AB54D485F5A48 /* SASecurityPolicy.m */,
+				C24F57C5D01F8BAAD7EBE3A43F447D91 /* SASwizzle.h */,
+				2CB5CBC0B2A5E964731138C04F9261C0 /* SASwizzle.m */,
+				594E3769B3720BC3BEF0123350357C63 /* SASwizzler.h */,
+				D6808FE588D5F77806FBB2815D040A6A /* SASwizzler.m */,
+				CFE953B353B3D0E8C61EF0B734C7BA0D /* SAWeakPropertyContainer.h */,
+				F4187BA83800B2C3FEE320828FD6C339 /* SAWeakPropertyContainer.m */,
+				C4935C3CA5A1C9718E02BFD09A9CA267 /* SensorsAnalyticsExceptionHandler.h */,
+				C464DCFD567684DBA88391967AE4EEDD /* SensorsAnalyticsExceptionHandler.m */,
+				03631158A088B576B321AF914E9A9303 /* SensorsAnalyticsSDK.h */,
+				8A8737CA24910C7FE1A714907CA9C721 /* SensorsAnalyticsSDK.m */,
+				C819926F901DCDDB881DCF6DD9342E4F /* SensorsAnalyticsSDK+Private.h */,
+				04A6AF96A906D4A8D9EAC245611AAED2 /* UIApplication+AutoTrack.h */,
+				F8964C1E1CCEED9C4DA2CAE2C9746C7E /* UIApplication+AutoTrack.m */,
+				CE0B9336431FBDD6D252625D1368156E /* UIGestureRecognizer+AutoTrack.h */,
+				37241D11583E19A42FD3D4303F933E4B /* UIGestureRecognizer+AutoTrack.m */,
+				B79FEC63D3716524041433B2EADAFC0C /* UIView+AutoTrack.h */,
+				A43755E908C60B10771A20B3C7B18379 /* UIView+AutoTrack.m */,
+				9298C282B6365F296DF09E2E76595A9F /* UIView+SAHelpers.h */,
+				67A783DDA184CE8B15826C5BEA20B33C /* UIView+SAHelpers.m */,
+				8A9A2090EF1F89F2ADDEE76D0140C0AC /* UIViewController+AutoTrack.h */,
+				1992EC388FEEB74112E299AB8B3D4BFF /* UIViewController+AutoTrack.m */,
+				87FBB3B050E4FEE7A87673AC50B5FCCD /* Pod */,
+				A8A4B2426DB6D8E94DA7CF045B8A48EE /* Resources */,
+				DAC43E382CF693D373D9F4861B19994A /* Support Files */,
+			);
+			name = BuriedPointSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A8A4B2426DB6D8E94DA7CF045B8A48EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4B4CD9879FF84DEA6D4A7A2FA717448 /* sa_autotrack_viewcontroller_blacklist.json */,
+				D3E55FB98048E4C090F8528EEE23CA8B /* sa_headmap_path.json */,
+				DDD949F0F02C7FEE7BD0E698A864D6B8 /* sa_mcc_mnc_mini.json */,
+				AF86B1C3A548D8F8B41352E30CCD0583 /* sa_visualizedautotrack_path.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -278,35 +407,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C0904FC3D1ED0F08540D4AB4C2DB4D1A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FED2D6E5E26E6F83FC1FC60A0628455A /* BuriedPointSDK.modulemap */,
-				8CF0C2561E9A9AFE9D1A88BA826807D4 /* BuriedPointSDK.xcconfig */,
-				967DF0BB119EFD09D03065499B6E7AA9 /* BuriedPointSDK-dummy.m */,
-				C1DE34E6FA478CA56B363F5719935902 /* BuriedPointSDK-Info.plist */,
-				48D1DC2BBDCAC5318AF4D623641D7C45 /* BuriedPointSDK-prefix.pch */,
-				4DBF64D3A5B07B1467457B0E463B80C5 /* BuriedPointSDK-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BuriedPointSDK";
-			sourceTree = "<group>";
-		};
-		C451E823AB6F68A7B793BAE09F2BAB7A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F8E86F47E317A032AE06DECD65163447 /* BuriedPointSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C451E823AB6F68A7B793BAE09F2BAB7A /* Development Pods */,
+				1FE20E1E80F462B98FF96B79D59C3AB4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				785E30373CC7ED715DCF845FF8933F18 /* Products */,
+				1F0046443EECA06553B61C5362EADC70 /* Products */,
 				82AFAF82B3C3E269F4A4F07A2778FE7D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -319,142 +426,78 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DBB1B5F311F73DF0F5C518C09719129A /* Pod */ = {
+		DAC43E382CF693D373D9F4861B19994A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C6E4D26780AFE514C4AFE4BCEEEEE868 /* BuriedPointSDK.podspec */,
-				3623617F57EB4A3ED0986B7CB06D7957 /* LICENSE */,
+				06CCD10F1CE02FF16B670471FA62C5CE /* BuriedPointSDK.modulemap */,
+				B9699C021AF36207BA3735ECBAE788CD /* BuriedPointSDK-dummy.m */,
+				3B74A3CF9F70949E9716938E6641391E /* BuriedPointSDK-Info.plist */,
+				28E84CC9514281700DA9D1F985A7BB09 /* BuriedPointSDK-prefix.pch */,
+				CF837B894EA4F0674B33A5C1C6BACBEA /* BuriedPointSDK-umbrella.h */,
+				861D1F16E2A73D7A7130519FE4E6DB86 /* BuriedPointSDK.debug.xcconfig */,
+				1EAA5C0D823925545811FFCFD4D45FF5 /* BuriedPointSDK.release.xcconfig */,
+				A00E317E1C446F41C25D4AFF5EB57316 /* ResourceBundle-BuriedPointSDK-BuriedPointSDK-Info.plist */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F8E86F47E317A032AE06DECD65163447 /* BuriedPointSDK */ = {
-			isa = PBXGroup;
-			children = (
-				178A0323A346207A5F1ACF5BCC2AC30B /* MessageQueueBySqlite.h */,
-				67D01E79921BCFDFEF2C804C9EED0592 /* MessageQueueBySqlite.m */,
-				24A4DD23C6FEFE4F925E2DF3623347E5 /* NSString+HashCode.h */,
-				EDB8182C847454E2F95841573B9933A6 /* NSString+HashCode.m */,
-				5D1C49D1C6064EF5D662603F601858EB /* SAAlertController.h */,
-				4C680A8A44D574C82B7B462C71C6557A /* SAAlertController.m */,
-				0585461005F3C52D289D1ECECC7C3DD3 /* SAAppExtensionDataManager.h */,
-				3D7E9FB5407D8D2852C952B2541F89C8 /* SAAppExtensionDataManager.m */,
-				A1E0984661D556F5FCBA91F3AD9F4E39 /* SAAutoTrackProperty.h */,
-				8E2FFF18E1908A4CFCE9B1FC13A9E878 /* SAAutoTrackUtils.h */,
-				70C572027238A3F564BC1AB8329518E4 /* SAAutoTrackUtils.m */,
-				14E90346133210DA773CF5D6FFB9D516 /* SACommonUtility.h */,
-				DE56D5AA7197640211428AE312EED8A6 /* SACommonUtility.m */,
-				167C7F0F879AC48B9B786ABA6A36D463 /* SAConfigOptions.h */,
-				2C82476DEEC1FD06106F7513E3096BD4 /* SAConfigOptions.m */,
-				9D8DE595578D9F1247264E0786315010 /* SAConstants.h */,
-				B3347B004FCDDF5A667AFEE75F84FC9B /* SAConstants.m */,
-				729BE314D333CB78710519131E51D4A6 /* SAConstants+Private.h */,
-				E1D85733CCC5607B51D2662F452564D7 /* SADeviceOrientationManager.h */,
-				73045FCA3F27DC584B05EF2F3C8484CF /* SADeviceOrientationManager.m */,
-				E2D9EACA8D0ACCD72095E58D313E76C9 /* SAGzipUtility.h */,
-				8ED97E1E9DC8A0CBCC2C5A560A52D2F9 /* SAGzipUtility.m */,
-				C6CC95B1277272460162365773A7F910 /* SAJSONUtil.h */,
-				DE605F3EE86E588EBD479CE0A70FCC5A /* SAJSONUtil.m */,
-				2CC9B1B823C25BF0EA86D4864721A498 /* SAKeyChainItemWrapper.h */,
-				ABAB1785400AE52911167B7230A15866 /* SAKeyChainItemWrapper.m */,
-				F40FBE3EAE45DFFD3C3E6AF347833338 /* SALocationManager.h */,
-				A2C3E337B19036440D99C74F5E2EC972 /* SALocationManager.m */,
-				07E44D67D55339EF7A428898B924B3A9 /* SALogger.h */,
-				D3C475F02D36979E818A8B1C85077C68 /* SALogger.m */,
-				D084FFF643FE479D95B4B886FCC22526 /* SANetwork.h */,
-				7BF942083609D799BFEE55967062586D /* SANetwork.m */,
-				8FB3DB92C74B289A19CF203943870188 /* SANetwork+URLUtils.h */,
-				7C3D714FF08571A1894183B826210726 /* SANetwork+URLUtils.m */,
-				64B5173493E13E5BBADF5321EF6F1019 /* SAReachability.h */,
-				18CD28EA65642FDC6532EB2709AC3001 /* SAReachability.m */,
-				2E19CD87AF220C26CAD763D043A7B345 /* SASDKRemoteConfig.h */,
-				1CB6D11F59112FB9B65346B4F2590FCF /* SASDKRemoteConfig.m */,
-				B1595A4556DBC50CC4750644E0E74890 /* SASecurityPolicy.h */,
-				136B1A129E9317CA95246783B3E7A3E4 /* SASecurityPolicy.m */,
-				5C8E2DC115FF6D7AEA329A3BDAD15479 /* SASwizzle.h */,
-				D232F3C15739EE851F38FF7164E99835 /* SASwizzle.m */,
-				C670B4C43A8601131946901C76727E11 /* SASwizzler.h */,
-				CAAEC3490C16D14BE6DDB30368330A44 /* SASwizzler.m */,
-				67EDE9D080647F10044F6C1C5A151493 /* SAWeakPropertyContainer.h */,
-				06A03BDA059FD54D79EE21B8F76AFE2F /* SAWeakPropertyContainer.m */,
-				8D0EB9560A6087CBD39AA451898991DF /* SensorsAnalyticsExceptionHandler.h */,
-				B6434CA833901FB3B8EFCD1AC4011179 /* SensorsAnalyticsExceptionHandler.m */,
-				4D7A79B4482A5E0E93B07A7F90331DFC /* SensorsAnalyticsSDK.h */,
-				76D3A3335A95EB10495B2F62498C2668 /* SensorsAnalyticsSDK.m */,
-				70F098206D8B13136993E2EA1764258A /* SensorsAnalyticsSDK+Private.h */,
-				4E56F471B671AF5EC8DAAF4C8961F50B /* UIApplication+AutoTrack.h */,
-				89CC6433E36AB1FBE43A1638F767C4C2 /* UIApplication+AutoTrack.m */,
-				4AFDBA8C8DDBC1615D03414544472540 /* UIGestureRecognizer+AutoTrack.h */,
-				B288F6E77F28A6A26781F040EE55C7D8 /* UIGestureRecognizer+AutoTrack.m */,
-				100880D33C2FB3C513DBCD2D77706E9B /* UIView+AutoTrack.h */,
-				F363D51E7907982D7BDF17905D487647 /* UIView+AutoTrack.m */,
-				123AA56DB4C69F4474431EDB437A2BEE /* UIView+SAHelpers.h */,
-				C255652F7E8D610E86FF9B84BD07FEC9 /* UIView+SAHelpers.m */,
-				151AB9EDF9C5C1F9BDE3CB532C17F27B /* UIViewController+AutoTrack.h */,
-				83C384838B13E642D0F2278DF27E7CB1 /* UIViewController+AutoTrack.m */,
-				DBB1B5F311F73DF0F5C518C09719129A /* Pod */,
-				C0904FC3D1ED0F08540D4AB4C2DB4D1A /* Support Files */,
-			);
-			name = BuriedPointSDK;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BuriedPointSDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4EB6A5479E324A803DD6A75E844D6501 /* Headers */ = {
+		5FB70C97622DBEA9E7027958B44B1A3B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4DC98805B210C88BA3122740CC9D2F /* BuriedPointSDK-umbrella.h in Headers */,
-				4CB24494C0FF00A9C8B599F08667998A /* MessageQueueBySqlite.h in Headers */,
-				11332242DA603D6F9C79E483711C75DA /* NSString+HashCode.h in Headers */,
-				9F40A85320BD74EE115162FEFF3296D4 /* SAAlertController.h in Headers */,
-				2C9DEAA056AC4BF709D3B6572A8AEFDD /* SAAppExtensionDataManager.h in Headers */,
-				D4491F84DE1F5B447F92481335D7500B /* SAAutoTrackProperty.h in Headers */,
-				53FB45421DB639CBB4C79DD92B3CBCF3 /* SAAutoTrackUtils.h in Headers */,
-				B6E3B83428DB1679885112124D73C4EE /* SACommonUtility.h in Headers */,
-				20BDBB740F94167134C2B0830464D3AE /* SAConfigOptions.h in Headers */,
-				6CDED92962030A2E4FDC419F6CCF3262 /* SAConstants+Private.h in Headers */,
-				244E6CE6D65855E41E60E4F71338FCD2 /* SAConstants.h in Headers */,
-				BBDBA735EFBDBEE81F1E84EC2D98C23D /* SADeviceOrientationManager.h in Headers */,
-				55631CE9608F71296E1D0CFB4D628DF2 /* SAGzipUtility.h in Headers */,
-				64E9599B9AA65C68D3F6D4AD977E2900 /* SAJSONUtil.h in Headers */,
-				ED437153CACD20A0689542054A9D638A /* SAKeyChainItemWrapper.h in Headers */,
-				C24E5177B281B4B0C6009CC371402B55 /* SALocationManager.h in Headers */,
-				87C105E5EA65236881EB96BE3AE384AE /* SALogger.h in Headers */,
-				A01E97592F555DC0F97488BB3BF73C6C /* SANetwork+URLUtils.h in Headers */,
-				72F14A7BD49C6A1356573629912BCF3A /* SANetwork.h in Headers */,
-				6EE1BD26CF606DCD7B56A89B96A9C84D /* SAReachability.h in Headers */,
-				A46752670530CFB7292F0F01216D82EA /* SASDKRemoteConfig.h in Headers */,
-				D249D4D60C64AF4A21A40A6F4558446A /* SASecurityPolicy.h in Headers */,
-				45714B35FC5F31B78BB6E579B3A6A650 /* SASwizzle.h in Headers */,
-				7162DD644C23BB41953E7B510923ED52 /* SASwizzler.h in Headers */,
-				8A6C9FF1F53375DA8E003F87BE590F15 /* SAWeakPropertyContainer.h in Headers */,
-				118447DF80BC0EC47CA4A2B3F8B3CBA0 /* SensorsAnalyticsExceptionHandler.h in Headers */,
-				7AB0B6313B8D90EED745A3BA38BCE501 /* SensorsAnalyticsSDK+Private.h in Headers */,
-				C5FA4A8763BECBE53D6886C7F09F3540 /* SensorsAnalyticsSDK.h in Headers */,
-				A285C0EC1574BB60D7B50D8229775B95 /* UIApplication+AutoTrack.h in Headers */,
-				C7F89DDEDFD332339A88D1E37E9AD801 /* UIGestureRecognizer+AutoTrack.h in Headers */,
-				A4D496835A4C4C1659BF640ADCC97984 /* UIView+AutoTrack.h in Headers */,
-				5BA33B94900C8272C10AED8EB945FCD4 /* UIView+SAHelpers.h in Headers */,
-				EFB1ACE7E4F114782D747DE6DF3232D1 /* UIViewController+AutoTrack.h in Headers */,
+				09B91C209C58605717C738D555495023 /* BuriedPointSDK-umbrella.h in Headers */,
+				420A57C1A7FB385B6E7DAF824A988BB4 /* MessageQueueBySqlite.h in Headers */,
+				18FC16519721AAA81166564EDB1987C8 /* NSString+HashCode.h in Headers */,
+				C0ADE17CD55EFE5EE053BA6C1A150D54 /* SAAlertController.h in Headers */,
+				FEFC51585A30C2B3ED949AFE4D813CB7 /* SAAppExtensionDataManager.h in Headers */,
+				DFB2E9E4120FB5AA0B88C6349613A003 /* SAAutoTrackProperty.h in Headers */,
+				557EF96349AC9E413362CF1AE7BAC41A /* SAAutoTrackUtils.h in Headers */,
+				87ACB091CE1E514EE41DC4C37A3F169A /* SACommonUtility.h in Headers */,
+				0449AC50902D85ADB775CB9BD77291F8 /* SAConfigOptions.h in Headers */,
+				A6AF601C6CDFE9245DF2F1C5A7F8A24F /* SAConstants+Private.h in Headers */,
+				BBFFB2D3F05C4BA79840BD727B54BFE2 /* SAConstants.h in Headers */,
+				DBEA4EE56228AF9EA670FD4BF529ED84 /* SADeviceOrientationManager.h in Headers */,
+				27F40B618DE233059EBF00F7D17AF572 /* SAGzipUtility.h in Headers */,
+				9B6BE9B80627FCCBD9B38241B4B27FE7 /* SAJSONUtil.h in Headers */,
+				6314133178F7284A9211EA724D7E0398 /* SAKeyChainItemWrapper.h in Headers */,
+				400C4A4FEBA88BFA4F13ABE5906C7864 /* SALocationManager.h in Headers */,
+				7FB50B980A99CBEDACCD8C4184BB5C39 /* SALogger.h in Headers */,
+				AFD707C14C40465EE59736BFD43E5814 /* SANetwork+URLUtils.h in Headers */,
+				153108797CB036943B306F68E65A8933 /* SANetwork.h in Headers */,
+				9FA1433546753D5D2DB503076394E336 /* SAReachability.h in Headers */,
+				BB04AB3CE018DD8BE1DDB057AA8043B4 /* SASDKRemoteConfig.h in Headers */,
+				3869002E16BF5665356B458844020391 /* SASecurityPolicy.h in Headers */,
+				476240E92D9BD68F4529FEF191A30B7B /* SASwizzle.h in Headers */,
+				E3F78B89B19EC401862345209812A8DF /* SASwizzler.h in Headers */,
+				CDE7C893FD7749C3BAE4F4ABA00BCEAF /* SAWeakPropertyContainer.h in Headers */,
+				0B00DCFE53154F0350D93019EF9525FE /* SensorsAnalyticsExceptionHandler.h in Headers */,
+				A2D8F414198268AF6C22860E6E510276 /* SensorsAnalyticsSDK+Private.h in Headers */,
+				3C7943B9E1AE1691EF6D1DA01BB44079 /* SensorsAnalyticsSDK.h in Headers */,
+				E73B8A3FE86945453D8E5189CB789D1C /* UIApplication+AutoTrack.h in Headers */,
+				6878E17DE6217A4D5A5D31AEBE8DF1AC /* UIGestureRecognizer+AutoTrack.h in Headers */,
+				A97BF23155050F04DF233E0BEFEC5051 /* UIView+AutoTrack.h in Headers */,
+				532864E83DD3BCAE92D19417E8ECACC7 /* UIView+SAHelpers.h in Headers */,
+				40DDCBD96FBE36729C54822A800CEAEF /* UIViewController+AutoTrack.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C14A1B6810CB2D923687BF6F6A99AC98 /* Headers */ = {
+		C5A35AF9FD817ABC8189CAD6C54C8BA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A433946FA8225ECEEA1628DAB4823D52 /* Pods-BuriedPointSDK_Example-umbrella.h in Headers */,
+				883C306EF5B4E531140FE37CF647006C /* Pods-BuriedPointSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAC469ABD320FEA4A80BBDAA26F64597 /* Headers */ = {
+		DCB866E10E4947EC4DCF6494DE35913A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75A450B8D3E3CADF44800CE4C2964EDF /* Pods-BuriedPointSDK_Tests-umbrella.h in Headers */,
+				748FC8C78C622EC3931C146DF0F39275 /* Pods-BuriedPointSDK_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,17 +506,17 @@
 /* Begin PBXNativeTarget section */
 		1D671DF42245385DC74B7272883F5C7A /* Pods-BuriedPointSDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E571654F3E7D297808370AA650916D89 /* Build configuration list for PBXNativeTarget "Pods-BuriedPointSDK_Tests" */;
+			buildConfigurationList = FFBEF5C7EEC0CE105741E4097F4D13C0 /* Build configuration list for PBXNativeTarget "Pods-BuriedPointSDK_Tests" */;
 			buildPhases = (
-				DAC469ABD320FEA4A80BBDAA26F64597 /* Headers */,
-				E6FD36C25B3EB05D3A7B1B2D5344C032 /* Sources */,
-				642A7407DF3C5778A70BE7D157C2ADCC /* Frameworks */,
-				DFD907222A5F56CB7A07E3624805A8A6 /* Resources */,
+				DCB866E10E4947EC4DCF6494DE35913A /* Headers */,
+				5719E4414D53FC3F655503FD6363E239 /* Sources */,
+				683FBF67815F5FF4594BCB1F1FE6F4FE /* Frameworks */,
+				EAC15BEF8CFE14A8AB5ABFFB6C6703B8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F7AD243FF3C661D58FB5665FDF99049 /* PBXTargetDependency */,
+				A2913A25082D15237AA1D158AC284487 /* PBXTargetDependency */,
 			);
 			name = "Pods-BuriedPointSDK_Tests";
 			productName = "Pods-BuriedPointSDK_Tests";
@@ -482,17 +525,17 @@
 		};
 		1D77DC847A3739D0AA948EB83D60CDB7 /* Pods-BuriedPointSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7C76CEC8C8C8103E68FDD45F1A41B04 /* Build configuration list for PBXNativeTarget "Pods-BuriedPointSDK_Example" */;
+			buildConfigurationList = CF03071B69C9E45C11C465EC6FA5850D /* Build configuration list for PBXNativeTarget "Pods-BuriedPointSDK_Example" */;
 			buildPhases = (
-				C14A1B6810CB2D923687BF6F6A99AC98 /* Headers */,
-				60C5ED1D8C70C3F4CF39BAEF2EBE44ED /* Sources */,
-				87A950D10E5FF6DB2E584014AA335F1F /* Frameworks */,
-				6EAFC97BDFDF6692D9E65ACC0AE3643A /* Resources */,
+				C5A35AF9FD817ABC8189CAD6C54C8BA9 /* Headers */,
+				6A9ADB3DCAC1AF160FBEE95D70493A81 /* Sources */,
+				C2EA0CE1DBB9C329B2FFF49E840B4A8E /* Frameworks */,
+				7A6CE0358BF8E954F0836226D659668F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				43F9AACA06C68484A1B1659878556419 /* PBXTargetDependency */,
+				DBB618ED23B82AE9E19F6EEE40192E57 /* PBXTargetDependency */,
 			);
 			name = "Pods-BuriedPointSDK_Example";
 			productName = "Pods-BuriedPointSDK_Example";
@@ -501,21 +544,39 @@
 		};
 		5E0911857B1EE3413F67BF733BD9BB8C /* BuriedPointSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B23FCC908D60F7D29FF4367123EC1AA8 /* Build configuration list for PBXNativeTarget "BuriedPointSDK" */;
+			buildConfigurationList = F6A1D52C225A4E50D7A980AD7A88F3EE /* Build configuration list for PBXNativeTarget "BuriedPointSDK" */;
 			buildPhases = (
-				4EB6A5479E324A803DD6A75E844D6501 /* Headers */,
-				9E6F11526274D69DE8799982802A3222 /* Sources */,
-				945E3E857CFD90A7A5B89A4305F46102 /* Frameworks */,
-				177E1633C28CBD806956D239481945FF /* Resources */,
+				5FB70C97622DBEA9E7027958B44B1A3B /* Headers */,
+				FD4F75BD33F76A9B3AD6FD277FD08EA9 /* Sources */,
+				9F329916B6C49E9859CCD886E94F4D47 /* Frameworks */,
+				1DDF4645E8C373D80B4512DDE43DD5C8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C071D9CADD860C2139FE529E13268E40 /* PBXTargetDependency */,
 			);
 			name = BuriedPointSDK;
 			productName = BuriedPointSDK;
 			productReference = 31D3D1039ED9576FC459D1DA058C2AF8 /* BuriedPointSDK.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		F548CD2FF927654AC28EDD69194308FE /* BuriedPointSDK-BuriedPointSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C259AB63321A2272D34FF8E4BF1ADF45 /* Build configuration list for PBXNativeTarget "BuriedPointSDK-BuriedPointSDK" */;
+			buildPhases = (
+				5FB3517CB5247B805BC8486D7349CCF0 /* Sources */,
+				4327193E46D541F7E0672DB870D8D6E9 /* Frameworks */,
+				CB8CFD610C743BF44988F1C477E4C18B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BuriedPointSDK-BuriedPointSDK";
+			productName = "BuriedPointSDK-BuriedPointSDK";
+			productReference = B45C31CFAE5083B80381768DC3874043 /* BuriedPointSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -532,13 +593,15 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 785E30373CC7ED715DCF845FF8933F18 /* Products */;
+			productRefGroup = 1F0046443EECA06553B61C5362EADC70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5E0911857B1EE3413F67BF733BD9BB8C /* BuriedPointSDK */,
+				F548CD2FF927654AC28EDD69194308FE /* BuriedPointSDK-BuriedPointSDK */,
 				1D77DC847A3739D0AA948EB83D60CDB7 /* Pods-BuriedPointSDK_Example */,
 				1D671DF42245385DC74B7272883F5C7A /* Pods-BuriedPointSDK_Tests */,
 			);
@@ -546,21 +609,33 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		177E1633C28CBD806956D239481945FF /* Resources */ = {
+		1DDF4645E8C373D80B4512DDE43DD5C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73F24535AF180AEE39E7D1B54197FB2 /* BuriedPointSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6CE0358BF8E954F0836226D659668F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EAFC97BDFDF6692D9E65ACC0AE3643A /* Resources */ = {
+		CB8CFD610C743BF44988F1C477E4C18B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DEDBDEB5EA2F97F0BB6E513BF17D8DF /* sa_autotrack_viewcontroller_blacklist.json in Resources */,
+				294EEFC0EC9330104A0B9B6932485D5A /* sa_headmap_path.json in Resources */,
+				1DD50DB390F114388106A9767E52FBFE /* sa_mcc_mnc_mini.json in Resources */,
+				53D4525B9E310BE3FE7B65A70C2E1055 /* sa_visualizedautotrack_path.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFD907222A5F56CB7A07E3624805A8A6 /* Resources */ = {
+		EAC15BEF8CFE14A8AB5ABFFB6C6703B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -570,114 +645,93 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		60C5ED1D8C70C3F4CF39BAEF2EBE44ED /* Sources */ = {
+		5719E4414D53FC3F655503FD6363E239 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F7E0C1E616D0284F5E101A984791DD /* Pods-BuriedPointSDK_Example-dummy.m in Sources */,
+				F9844058A6C1AB7335AB09FA5D05C647 /* Pods-BuriedPointSDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E6F11526274D69DE8799982802A3222 /* Sources */ = {
+		5FB3517CB5247B805BC8486D7349CCF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ADBBD1DE97261A1CAF00FCE211514EC /* BuriedPointSDK-dummy.m in Sources */,
-				176C6EA8EEFCAD4BE99514782B61C04F /* MessageQueueBySqlite.m in Sources */,
-				167508B32CF3888CA2C25CAB0C1F5800 /* NSString+HashCode.m in Sources */,
-				90FCA498DEAFE973E1E95961A5971B5A /* SAAlertController.m in Sources */,
-				EA23BDD3164C13EF8490BF2A67BEC439 /* SAAppExtensionDataManager.m in Sources */,
-				EF43245C294BB4AD7805550AECA8072E /* SAAutoTrackUtils.m in Sources */,
-				3815B803C9E111A127F2677068E18C7E /* SACommonUtility.m in Sources */,
-				3D569A920B18F6D9CE5F996448B1AF89 /* SAConfigOptions.m in Sources */,
-				BD8CBF8DF888301D02D3C0A316518F94 /* SAConstants.m in Sources */,
-				D58345C3451E7BBC057FE96B82DE0C1C /* SADeviceOrientationManager.m in Sources */,
-				7FCC488154D0DEC5F39CD348156A986C /* SAGzipUtility.m in Sources */,
-				BD90B0382671ED70C6FD032F00474612 /* SAJSONUtil.m in Sources */,
-				9A3EAD7AC46FFCBD5C207421EF55A222 /* SAKeyChainItemWrapper.m in Sources */,
-				D6899413376934F5EB0EA0644E59122A /* SALocationManager.m in Sources */,
-				AF0CE129138681A61E05DCFEC1A6FC59 /* SALogger.m in Sources */,
-				593A865E07BFF01D3C98B3400AC0A58A /* SANetwork+URLUtils.m in Sources */,
-				ED77365E092CC72973453119A125FEA6 /* SANetwork.m in Sources */,
-				676A1A6AAC71EE216413C4FE83AF4389 /* SAReachability.m in Sources */,
-				4943E8ABBADF56AE9761090FFF0D7B6D /* SASDKRemoteConfig.m in Sources */,
-				149802D91B938DBF8DB13B958893994C /* SASecurityPolicy.m in Sources */,
-				0657D815CAB55303F31A34921E6915FA /* SASwizzle.m in Sources */,
-				40B08380CD57B3FAB3BA09852B3EB621 /* SASwizzler.m in Sources */,
-				A1404963106679771F975B1E8318CC7F /* SAWeakPropertyContainer.m in Sources */,
-				B8B42FA6DBAF03B0A9225C02E2146A3D /* SensorsAnalyticsExceptionHandler.m in Sources */,
-				93DC9B7C2D84B01D034D3FD2F85FC6D2 /* SensorsAnalyticsSDK.m in Sources */,
-				8EB05016B1C1629159104AEABB29D22C /* UIApplication+AutoTrack.m in Sources */,
-				DCBACDD8B0E31AA8F31414CDF9DFAA1B /* UIGestureRecognizer+AutoTrack.m in Sources */,
-				DBFBCCFA7853BE9A22FB9D1997466EAD /* UIView+AutoTrack.m in Sources */,
-				213A849F233BCE0A88F552D5B85702B6 /* UIView+SAHelpers.m in Sources */,
-				417FFF2F60E058882E941F088237E4C3 /* UIViewController+AutoTrack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6FD36C25B3EB05D3A7B1B2D5344C032 /* Sources */ = {
+		6A9ADB3DCAC1AF160FBEE95D70493A81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95F26AA23FFD088DF91B27F5F05C90DE /* Pods-BuriedPointSDK_Tests-dummy.m in Sources */,
+				85B9DB99E5FC3D2B550F24911DB714AE /* Pods-BuriedPointSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F75BD33F76A9B3AD6FD277FD08EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662BB28AD6AC408E2324007C69B381B5 /* BuriedPointSDK-dummy.m in Sources */,
+				6ACA9BF043802EA1F5D787AED7380461 /* MessageQueueBySqlite.m in Sources */,
+				A7F914B06E529AF404FAF5FB59FB2CA1 /* NSString+HashCode.m in Sources */,
+				A1EFA4BE5C37DF270AF3161FE3A998FD /* SAAlertController.m in Sources */,
+				597902E972F78BBCAAC63044AF11C76C /* SAAppExtensionDataManager.m in Sources */,
+				8EDB91A67F3164EB96A36B9F9468BFE1 /* SAAutoTrackUtils.m in Sources */,
+				1BB8C7028C8675E39B4B4FC739DCE560 /* SACommonUtility.m in Sources */,
+				5761BB375DC70559BEF69193307BAD4C /* SAConfigOptions.m in Sources */,
+				F88AED03FD905FAB8FF8EC9881AB1B41 /* SAConstants.m in Sources */,
+				77FC43049C0DDDBB422BCE5725460472 /* SADeviceOrientationManager.m in Sources */,
+				FC918D4B6F0C8E4FC155AA11FC787D67 /* SAGzipUtility.m in Sources */,
+				53D1EB84AD89A4C5D1D4787D5ACE935A /* SAJSONUtil.m in Sources */,
+				D4F2B544B9BD56EE9E2835CA251675AC /* SAKeyChainItemWrapper.m in Sources */,
+				BB29E371BE8A7FDF9DC65B9674F17DA8 /* SALocationManager.m in Sources */,
+				AC964FFD613353CAB13AB5ACB0950D49 /* SALogger.m in Sources */,
+				B1EA44B78E848058C589B679A328EA4B /* SANetwork+URLUtils.m in Sources */,
+				7DDBD2E515890C63D17A0AA03D2A102B /* SANetwork.m in Sources */,
+				0CE39E07484D8669A5705D1A435BDC29 /* SAReachability.m in Sources */,
+				046CC8C4C52151812CA4EB43D4641719 /* SASDKRemoteConfig.m in Sources */,
+				CD820ADE5EAC958A77889CDB4B76DE56 /* SASecurityPolicy.m in Sources */,
+				F665BB76CB2A46E203CB315C2EACCB1A /* SASwizzle.m in Sources */,
+				7DC8B22AED055748938A87F53A2AB29C /* SASwizzler.m in Sources */,
+				A21BF8FD945E3502B00931D5516AEA87 /* SAWeakPropertyContainer.m in Sources */,
+				C188D93D089B35F6923CE79897348527 /* SensorsAnalyticsExceptionHandler.m in Sources */,
+				FF7EA2413478B6A4E808CBFA82691ABF /* SensorsAnalyticsSDK.m in Sources */,
+				F8ACF8F60FDFD348F12DEB52A00B4923 /* UIApplication+AutoTrack.m in Sources */,
+				8FB167F4403EC12C731D34B1C420DE91 /* UIGestureRecognizer+AutoTrack.m in Sources */,
+				26FB1F4CEB37275291CF238612BF63EB /* UIView+AutoTrack.m in Sources */,
+				3A53D1A1DFF5563C6132DB83D65957CA /* UIView+SAHelpers.m in Sources */,
+				F2F928FAEF9BB1F893E0E9B1680A15C2 /* UIViewController+AutoTrack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F7AD243FF3C661D58FB5665FDF99049 /* PBXTargetDependency */ = {
+		A2913A25082D15237AA1D158AC284487 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BuriedPointSDK_Example";
 			target = 1D77DC847A3739D0AA948EB83D60CDB7 /* Pods-BuriedPointSDK_Example */;
-			targetProxy = 0E087A5F28670CB44BF054410243D7AA /* PBXContainerItemProxy */;
+			targetProxy = D392786BC49F93063AD7A017E11DA282 /* PBXContainerItemProxy */;
 		};
-		43F9AACA06C68484A1B1659878556419 /* PBXTargetDependency */ = {
+		C071D9CADD860C2139FE529E13268E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BuriedPointSDK-BuriedPointSDK";
+			target = F548CD2FF927654AC28EDD69194308FE /* BuriedPointSDK-BuriedPointSDK */;
+			targetProxy = 0D71855C7DD5AF864832E8C64B9067D0 /* PBXContainerItemProxy */;
+		};
+		DBB618ED23B82AE9E19F6EEE40192E57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BuriedPointSDK;
 			target = 5E0911857B1EE3413F67BF733BD9BB8C /* BuriedPointSDK */;
-			targetProxy = 66404F883A34AA18D0BC552B813B9EA3 /* PBXContainerItemProxy */;
+			targetProxy = E5AD8C4CF01D47F4165D22A8AFA97955 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E0FD3B890336DF14A9BADD7E3E69D43 /* Release */ = {
+		40C518088C34E892DFAA58EBF4F79BCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5204E6FA27727322F5380E701CA48C9F /* Pods-BuriedPointSDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BuriedPointSDK_Example/Pods-BuriedPointSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BuriedPointSDK_Example/Pods-BuriedPointSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1141465B65F90499D0FCA45872DA6EB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CF0C2561E9A9AFE9D1A88BA826807D4 /* BuriedPointSDK.xcconfig */;
+			baseConfigurationReference = 1EAA5C0D823925545811FFCFD4D45FF5 /* BuriedPointSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -701,42 +755,26 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		44CF2AF62BE9DEBC63FFA138DF3ECD92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C54150BF7C5DF4B83538E5CD4332B293 /* Pods-BuriedPointSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BuriedPointSDK_Tests/Pods-BuriedPointSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BuriedPointSDK_Tests/Pods-BuriedPointSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4335B6A3650DDC64A7C870DFC9F35BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAA5C0D823925545811FFCFD4D45FF5 /* BuriedPointSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BuriedPointSDK";
+				IBSC_MODULE = BuriedPointSDK;
+				INFOPLIST_FILE = "Target Support Files/BuriedPointSDK/ResourceBundle-BuriedPointSDK-BuriedPointSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BuriedPointSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -797,6 +835,73 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4E9536677AE40AFA056AF4830DD48D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7142CDABB6537D2644D6FF609E9F24BB /* Pods-BuriedPointSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuriedPointSDK_Example/Pods-BuriedPointSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuriedPointSDK_Example/Pods-BuriedPointSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		563A6EAD1081BC39B8E5447D0A4CFBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5204E6FA27727322F5380E701CA48C9F /* Pods-BuriedPointSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuriedPointSDK_Example/Pods-BuriedPointSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuriedPointSDK_Example/Pods-BuriedPointSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -864,10 +969,11 @@
 			};
 			name = Debug;
 		};
-		91E301A87F1EE56495388C42161F5B84 /* Release */ = {
+		92096052B3F97CA98B212570987CF602 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CF0C2561E9A9AFE9D1A88BA826807D4 /* BuriedPointSDK.xcconfig */;
+			baseConfigurationReference = C54150BF7C5DF4B83538E5CD4332B293 /* Pods-BuriedPointSDK_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -877,18 +983,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BuriedPointSDK/BuriedPointSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BuriedPointSDK/BuriedPointSDK-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuriedPointSDK_Tests/Pods-BuriedPointSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BuriedPointSDK/BuriedPointSDK.modulemap";
-				PRODUCT_MODULE_NAME = BuriedPointSDK;
-				PRODUCT_NAME = BuriedPointSDK;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuriedPointSDK_Tests/Pods-BuriedPointSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -896,7 +1003,7 @@
 			};
 			name = Release;
 		};
-		9701F377E3E1001AE889BEA0D94D4815 /* Debug */ = {
+		BC2FB48531D1672253847DBA3E5D84EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C05C76116B6F96D61E9C897AE86B9578 /* Pods-BuriedPointSDK_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -929,11 +1036,10 @@
 			};
 			name = Debug;
 		};
-		9E4F53DC5EF5BE83949B734D5C107A86 /* Debug */ = {
+		C628A5B0EDBC03FFB01251887708EC4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7142CDABB6537D2644D6FF609E9F24BB /* Pods-BuriedPointSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 861D1F16E2A73D7A7130519FE4E6DB86 /* BuriedPointSDK.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -943,22 +1049,38 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BuriedPointSDK_Example/Pods-BuriedPointSDK_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BuriedPointSDK/BuriedPointSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BuriedPointSDK/BuriedPointSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BuriedPointSDK_Example/Pods-BuriedPointSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/BuriedPointSDK/BuriedPointSDK.modulemap";
+				PRODUCT_MODULE_NAME = BuriedPointSDK;
+				PRODUCT_NAME = BuriedPointSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEFDBA8CD8C1D98DFCD71C8AB6AD7185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 861D1F16E2A73D7A7130519FE4E6DB86 /* BuriedPointSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BuriedPointSDK";
+				IBSC_MODULE = BuriedPointSDK;
+				INFOPLIST_FILE = "Target Support Files/BuriedPointSDK/ResourceBundle-BuriedPointSDK-BuriedPointSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BuriedPointSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -974,29 +1096,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B23FCC908D60F7D29FF4367123EC1AA8 /* Build configuration list for PBXNativeTarget "BuriedPointSDK" */ = {
+		C259AB63321A2272D34FF8E4BF1ADF45 /* Build configuration list for PBXNativeTarget "BuriedPointSDK-BuriedPointSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1141465B65F90499D0FCA45872DA6EB3 /* Debug */,
-				91E301A87F1EE56495388C42161F5B84 /* Release */,
+				FEFDBA8CD8C1D98DFCD71C8AB6AD7185 /* Debug */,
+				4335B6A3650DDC64A7C870DFC9F35BE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E571654F3E7D297808370AA650916D89 /* Build configuration list for PBXNativeTarget "Pods-BuriedPointSDK_Tests" */ = {
+		CF03071B69C9E45C11C465EC6FA5850D /* Build configuration list for PBXNativeTarget "Pods-BuriedPointSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9701F377E3E1001AE889BEA0D94D4815 /* Debug */,
-				44CF2AF62BE9DEBC63FFA138DF3ECD92 /* Release */,
+				4E9536677AE40AFA056AF4830DD48D16 /* Debug */,
+				563A6EAD1081BC39B8E5447D0A4CFBF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7C76CEC8C8C8103E68FDD45F1A41B04 /* Build configuration list for PBXNativeTarget "Pods-BuriedPointSDK_Example" */ = {
+		F6A1D52C225A4E50D7A980AD7A88F3EE /* Build configuration list for PBXNativeTarget "BuriedPointSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E4F53DC5EF5BE83949B734D5C107A86 /* Debug */,
-				0E0FD3B890336DF14A9BADD7E3E69D43 /* Release */,
+				C628A5B0EDBC03FFB01251887708EC4F /* Debug */,
+				40C518088C34E892DFAA58EBF4F79BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBEF5C7EEC0CE105741E4097F4D13C0 /* Build configuration list for PBXNativeTarget "Pods-BuriedPointSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2FB48531D1672253847DBA3E5D84EA /* Debug */,
+				92096052B3F97CA98B212570987CF602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

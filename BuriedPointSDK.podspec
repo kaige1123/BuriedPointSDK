@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BuriedPointSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of BuriedPointSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -37,9 +37,9 @@ TODO: Add long description of the pod here.
   #依赖自己的或别人的Framework文件
   #s.vendored_frameworks = 'BuriedPointSDK/Classes/*.framework'
   
-  # s.resource_bundles = {
-  #   'BuriedPointSDK' => ['BuriedPointSDK/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'BuriedPointSDK' => ['BuriedPointSDK/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
