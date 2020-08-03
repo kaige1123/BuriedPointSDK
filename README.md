@@ -24,4 +24,4 @@ https://www.jianshu.com/p/67fda9daeb94
 rm ~/Library/Caches/CocoaPods/search_index.json
 pod search xxx
 
-神测数据 iOS github项目
+神测数据 iOS github项目  https://github.com/sensorsdata/sa-sdk-ios
