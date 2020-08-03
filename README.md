@@ -17,5 +17,12 @@ https://www.jianshu.com/p/29df1e678892
 [!] Authentication token is invalid or unverified. Either verify it with the email that was sent ...
 https://www.jianshu.com/p/67fda9daeb94
 
+怎么更新pod索引文件？
+原理：pod setup成功后会生成~/Library/Caches/CocoaPods/search_index.json文件
+把search_index.json文件文件删除，重新执行pod search，就会重新更新索引.
+终端执行：
+rm ~/Library/Caches/CocoaPods/search_index.json
+pod search xxx
+
 
 
